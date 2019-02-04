@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePageTest Suite" time="117" tests="1" failures="0" errors="0">
+   <testsuite name="HomePageTest Suite" tests="1" failures="0" errors="0" time="117" timestamp="2019-01-17 15:48:07" hostname="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com" id="Test Suites/HomePageTest Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\HomePageTest Suite\\20190117_154759"/>
+         <property name="logFiles" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\HomePageTest Suite\\20190117_154759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.196.215.102"/>
+         <property name="sessionId" value="d71c9ede4089c132f7c28a3d1dadc9f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HomepageLoad after navigating to url" classname="Test Cases/HomepageLoad after navigating to url" status="PASSED">
+         <system-out><![CDATA[2019-01-17 15:48:07 - [TEST_CASE][PASSED] - Test Cases/HomepageLoad after navigating to url: Test Cases/HomepageLoad after navigating to url
+
+2019-01-17 15:48:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 15:48:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 15:48:09 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2019-01-17 15:48:09 - [MESSAGE][INFO] - Action delay is set to 2 seconds
+
+2019-01-17 15:48:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 15:48:17 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-17 15:48:26 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-17 15:48:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-17 15:48:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-17 15:48:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 15:48:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 15:48:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-17 15:48:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 15:48:34 - [TEST_STEP][PASSED] - zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 0): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-17 15:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:36 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-17 15:48:36 - [TEST_STEP][PASSED] - if (zee5 == true): null
+
+2019-01-17 15:48:36 - [TEST_STEP][PASSED] - println("Homepage Loaded successfully"): null
+
+2019-01-17 15:48:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-17 15:48:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-17 15:48:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-17 15:48:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-17 15:48:46 - [TEST_STEP][PASSED] - premium = waitForElementPresent(findTestObject("HomepageObjects/Premium on homepage"), 0): Object 'Object Repository/HomepageObjects/Premium on homepage' is present
+
+2019-01-17 15:48:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Premium on homepage' is present
+
+2019-01-17 15:48:48 - [TEST_STEP][PASSED] - if (premium == true): null
+
+2019-01-17 15:48:48 - [TEST_STEP][PASSED] - println("Premium section is present on Homepage"): null
+
+2019-01-17 15:48:48 - [TEST_STEP][PASSED] - shows = waitForElementPresent(findTestObject("HomepageObjects/Shows on homepage"), 0): Object 'Object Repository/HomepageObjects/Shows on homepage' is present
+
+2019-01-17 15:48:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:50 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Shows on homepage' is present
+
+2019-01-17 15:48:50 - [TEST_STEP][PASSED] - if (shows == true): null
+
+2019-01-17 15:48:50 - [TEST_STEP][PASSED] - println("Shows section is present on Homepage"): null
+
+2019-01-17 15:48:50 - [TEST_STEP][PASSED] - movies = waitForElementPresent(findTestObject("HomepageObjects/Movies on homepage"), 0): Object 'Object Repository/HomepageObjects/Movies on homepage' is present
+
+2019-01-17 15:48:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Movies on homepage' is present
+
+2019-01-17 15:48:52 - [TEST_STEP][PASSED] - if (movies == true): null
+
+2019-01-17 15:48:52 - [TEST_STEP][PASSED] - println("Movies section is present on Homepage"): null
+
+2019-01-17 15:48:52 - [TEST_STEP][PASSED] - videos = waitForElementPresent(findTestObject("HomepageObjects/Videos on homepage"), 0): Object 'Object Repository/HomepageObjects/Videos on homepage' is present
+
+2019-01-17 15:48:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Videos on homepage' is present
+
+2019-01-17 15:48:54 - [TEST_STEP][PASSED] - if (videos == true): null
+
+2019-01-17 15:48:54 - [TEST_STEP][PASSED] - println("Videos section is present on Homepage"): null
+
+2019-01-17 15:48:54 - [TEST_STEP][PASSED] - TvGuide = waitForElementPresent(findTestObject("HomepageObjects/TvGuide on homepage"), 0): Object 'Object Repository/HomepageObjects/TvGuide on homepage' is present
+
+2019-01-17 15:48:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:56 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/TvGuide on homepage' is present
+
+2019-01-17 15:48:56 - [TEST_STEP][PASSED] - if (TvGuide == true): null
+
+2019-01-17 15:48:56 - [TEST_STEP][PASSED] - println("TvGuide section is present on Homepage"): null
+
+2019-01-17 15:48:56 - [TEST_STEP][PASSED] - Languageicon = waitForElementPresent(findTestObject("HomepageObjects/Language icon on homepage"), 0): Object 'Object Repository/HomepageObjects/Language icon on homepage' is present
+
+2019-01-17 15:48:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Language icon on homepage' is present
+
+2019-01-17 15:48:58 - [TEST_STEP][PASSED] - if (Languageicon == true): null
+
+2019-01-17 15:48:58 - [TEST_STEP][PASSED] - println("Language icon section is present on Homepage"): null
+
+2019-01-17 15:48:58 - [TEST_STEP][PASSED] - Searchicon = waitForElementPresent(findTestObject("HomepageObjects/Search Icon on homepage"), 0): Object 'Object Repository/HomepageObjects/Search Icon on homepage' is present
+
+2019-01-17 15:48:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Search Icon on homepage' is present
+
+2019-01-17 15:49:00 - [TEST_STEP][PASSED] - if (Searchicon == true): null
+
+2019-01-17 15:49:00 - [TEST_STEP][PASSED] - println("Search Icon section is present on Homepage"): null
+
+2019-01-17 15:49:00 - [TEST_STEP][PASSED] - Login = waitForElementPresent(findTestObject("HomepageObjects/Login in homepage"), 0): Object 'Object Repository/HomepageObjects/Login in homepage' is present
+
+2019-01-17 15:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:49:02 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Login in homepage' is present
+
+2019-01-17 15:49:02 - [TEST_STEP][PASSED] - if (Login == true): null
+
+2019-01-17 15:49:02 - [TEST_STEP][PASSED] - println("Login  section is present on Homepage"): null
+
+2019-01-17 15:49:02 - [TEST_STEP][PASSED] - Threedotmenu = waitForElementPresent(findTestObject("HomepageObjects/Threedot menu on homepage"), 0): Object 'Object Repository/HomepageObjects/Threedot menu on homepage' is present
+
+2019-01-17 15:49:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 15:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Threedot menu on homepage' is present
+
+2019-01-17 15:49:04 - [TEST_STEP][PASSED] - if (Threedotmenu == true): null
+
+2019-01-17 15:49:04 - [TEST_STEP][PASSED] - println("Threedotmenu  section is present on Homepage"): null
+
+2019-01-17 15:49:04 - [TEST_STEP][PASSED] - premiumcontentscheck = verifyElementPresent(findTestObject("HomepageObjects/Premium contents on Homepage"), 1): Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-17 15:49:06 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-17 15:49:06 - [TEST_STEP][PASSED] - if (premiumcontentscheck == true): null
+
+2019-01-17 15:49:06 - [TEST_STEP][PASSED] - println("Premium contents are present on Homepage"): null
+
+2019-01-17 15:49:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HomepageObjects/ContentsPlay on Homepage"), 1): Scroll to object 'Object Repository/HomepageObjects/ContentsPlay on Homepage' successfully
+
+2019-01-17 15:49:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomepageObjects/ContentsPlay on Homepage' successfully
+
+2019-01-17 15:49:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-17 15:49:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-17 15:49:21 - [TEST_STEP][PASSED] - click(findTestObject("HomepageObjects/ContentsPlay on Homepage")): Object: 'Object Repository/HomepageObjects/ContentsPlay on Homepage' is clicked on
+
+2019-01-17 15:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomepageObjects/ContentsPlay on Homepage' is clicked on
+
+2019-01-17 15:49:25 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-17 15:49:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-17 15:49:27 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-17 15:49:35 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-17 15:49:35 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-17 15:49:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-17 15:49:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 15:49:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 15:49:39 - [TEST_STEP][PASSED] - carousalcheck = verifyElementPresent(findTestObject("HomepageObjects/Carousal on Homepage"), 1): Object 'Object Repository/HomepageObjects/Carousal on Homepage' is present
+
+2019-01-17 15:49:41 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Carousal on Homepage' is present
+
+2019-01-17 15:49:41 - [TEST_STEP][PASSED] - if (carousalcheck == true): null
+
+2019-01-17 15:49:41 - [TEST_STEP][PASSED] - println("Carousal is present on Homepage"): null
+
+2019-01-17 15:49:41 - [TEST_STEP][PASSED] - aboutUs = getText(findTestObject("HomepageObjects/AboutUs on Homepage")): Text of object 'Object Repository/HomepageObjects/AboutUs on Homepage' is: 'About Us'
+
+2019-01-17 15:49:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/AboutUs on Homepage' is: 'About Us'
+
+2019-01-17 15:49:45 - [TEST_STEP][PASSED] - println(aboutUs): null
+
+2019-01-17 15:49:45 - [TEST_STEP][PASSED] - if (aboutUs.contentEquals("About Us")): null
+
+2019-01-17 15:49:45 - [TEST_STEP][PASSED] - println("About Us is present on Homepage footer"): null
+
+2019-01-17 15:49:45 - [TEST_STEP][PASSED] - contactUs = getText(findTestObject("HomepageObjects/Contact Us on Homepage")): Text of object 'Object Repository/HomepageObjects/Contact Us on Homepage' is: 'Contact Us'
+
+2019-01-17 15:49:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/Contact Us on Homepage' is: 'Contact Us'
+
+2019-01-17 15:49:49 - [TEST_STEP][PASSED] - println(contactUs): null
+
+2019-01-17 15:49:49 - [TEST_STEP][PASSED] - if (contactUs.contentEquals("Contact Us")): null
+
+2019-01-17 15:49:49 - [TEST_STEP][PASSED] - println("Contact Us is present on Homepage footer"): null
+
+2019-01-17 15:49:49 - [TEST_STEP][PASSED] - Help = getText(findTestObject("HomepageObjects/Help on Homepage")): Text of object 'Object Repository/HomepageObjects/Help on Homepage' is: 'Help'
+
+2019-01-17 15:49:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/Help on Homepage' is: 'Help'
+
+2019-01-17 15:49:53 - [TEST_STEP][PASSED] - println(Help): null
+
+2019-01-17 15:49:53 - [TEST_STEP][PASSED] - if (Help.contentEquals("Help")): null
+
+2019-01-17 15:49:53 - [TEST_STEP][PASSED] - println("Help is present on Homepage footer"): null
+
+2019-01-17 15:49:53 - [TEST_STEP][PASSED] - privacypolicy = getText(findTestObject("HomepageObjects/PrivacyPolicy on Homepage")): Text of object 'Object Repository/HomepageObjects/PrivacyPolicy on Homepage' is: 'Privacy Policy'
+
+2019-01-17 15:49:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/PrivacyPolicy on Homepage' is: 'Privacy Policy'
+
+2019-01-17 15:49:57 - [TEST_STEP][PASSED] - println(privacypolicy): null
+
+2019-01-17 15:49:57 - [TEST_STEP][PASSED] - if (privacypolicy.contentEquals("Privacy Policy")): null
+
+2019-01-17 15:49:57 - [TEST_STEP][PASSED] - println("PrivacyPolicy is present on Homepage footer"): null
+
+2019-01-17 15:49:57 - [TEST_STEP][PASSED] - termsofuse = getText(findTestObject("HomepageObjects/TermsOfuse on Homepage")): Text of object 'Object Repository/HomepageObjects/TermsOfuse on Homepage' is: 'Terms of Use'
+
+2019-01-17 15:50:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/TermsOfuse on Homepage' is: 'Terms of Use'
+
+2019-01-17 15:50:01 - [TEST_STEP][PASSED] - println(termsofuse): null
+
+2019-01-17 15:50:01 - [TEST_STEP][PASSED] - if (termsofuse.contentEquals("TermsofUse")): null
+
+2019-01-17 15:50:01 - [TEST_STEP][PASSED] - else: null
+
+2019-01-17 15:50:01 - [TEST_STEP][PASSED] - println("TermsOfuse is missing on Homepage footer"): null
+
+2019-01-17 15:50:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-17 15:50:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 15:48:07 - [TEST_SUITE][PASSED] - HomePageTest Suite: Test Cases/HomepageLoad after navigating to url]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,332 @@
+1
+00:00:01,542 --> 00:00:01,552
+1. openBrowser("")
+
+2
+00:00:14,984 --> 00:00:14,986
+5. navigateToUrl(appurl)
+
+3
+00:00:29,350 --> 00:00:29,352
+9. waitForPageLoad(2)
+
+4
+00:00:31,552 --> 00:00:31,554
+13. maximizeWindow()
+
+5
+00:00:35,311 --> 00:00:35,313
+17. delay(2)
+
+6
+00:00:37,394 --> 00:00:37,400
+21. zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5)
+
+7
+00:00:39,554 --> 00:00:39,555
+25. if (zee5 == true)
+
+8
+00:00:39,559 --> 00:00:39,560
+1. println("Homepage Loaded successfully")
+
+9
+00:00:39,566 --> 00:00:39,569
+29. delay(5)
+
+10
+00:00:44,573 --> 00:00:44,573
+33. delay(5)
+
+11
+00:00:49,575 --> 00:00:49,577
+37. premium = waitForElementPresent(findTestObject("HomepageObjects/Premium on homepage"), 2)
+
+12
+00:00:51,628 --> 00:00:51,630
+41. if (premium == true)
+
+13
+00:00:51,631 --> 00:00:51,633
+1. println("Premium section is present on Homepage")
+
+14
+00:00:51,635 --> 00:00:51,641
+45. shows = waitForElementPresent(findTestObject("HomepageObjects/Shows on homepage"), 2)
+
+15
+00:00:53,697 --> 00:00:53,699
+49. if (shows == true)
+
+16
+00:00:53,701 --> 00:00:53,703
+1. println("Shows section is present on Homepage")
+
+17
+00:00:53,705 --> 00:00:53,707
+53. movies = waitForElementPresent(findTestObject("HomepageObjects/Movies on homepage"), 2)
+
+18
+00:00:55,883 --> 00:00:55,889
+57. if (movies == true)
+
+19
+00:00:55,894 --> 00:00:55,896
+1. println("Movies section is present on Homepage")
+
+20
+00:00:55,898 --> 00:00:55,901
+61. news = waitForElementPresent(findTestObject("HomepageObjects/News on homepage"), 2)
+
+21
+00:00:58,279 --> 00:00:58,280
+65. if (news == true)
+
+22
+00:00:58,282 --> 00:00:58,283
+1. println("News section is present on Homepage")
+
+23
+00:00:58,285 --> 00:00:58,293
+69. videos = waitForElementPresent(findTestObject("HomepageObjects/Videos on homepage"), 2)
+
+24
+00:01:00,336 --> 00:01:00,338
+73. if (videos == true)
+
+25
+00:01:00,340 --> 00:01:00,341
+1. println("Videos section is present on Homepage")
+
+26
+00:01:00,342 --> 00:01:00,345
+77. livetv = waitForElementPresent(findTestObject("HomepageObjects/LiveTv on homepage"), 5)
+
+27
+00:01:05,476 --> 00:01:05,480
+81. if (livetv == true)
+
+28
+00:01:05,495 --> 00:01:05,496
+2. println("LiveTv section is missing on Homepage")
+
+29
+00:01:05,499 --> 00:01:05,501
+85. TvGuide = waitForElementPresent(findTestObject("HomepageObjects/TvGuide on homepage"), 5)
+
+30
+00:01:07,559 --> 00:01:07,562
+89. if (TvGuide == true)
+
+31
+00:01:07,564 --> 00:01:07,566
+1. println("TvGuide section is present on Homepage")
+
+32
+00:01:07,569 --> 00:01:07,572
+93. Languageicon = waitForElementPresent(findTestObject("HomepageObjects/Language icon on homepage"), 5)
+
+33
+00:01:09,639 --> 00:01:09,640
+97. if (Languageicon == true)
+
+34
+00:01:09,641 --> 00:01:09,644
+1. println("Language icon section is present on Homepage")
+
+35
+00:01:09,648 --> 00:01:09,651
+101. Searchicon = waitForElementPresent(findTestObject("HomepageObjects/Search Icon on homepage"), 5)
+
+36
+00:01:11,698 --> 00:01:11,700
+105. if (Searchicon == true)
+
+37
+00:01:11,703 --> 00:01:11,703
+1. println("Search Icon section is present on Homepage")
+
+38
+00:01:11,703 --> 00:01:11,703
+109. Login = waitForElementPresent(findTestObject("HomepageObjects/Login in homepage"), 5)
+
+39
+00:01:13,746 --> 00:01:13,746
+113. if (Login == true)
+
+40
+00:01:13,746 --> 00:01:13,746
+1. println("Login  section is present on Homepage")
+
+41
+00:01:13,746 --> 00:01:13,746
+117. Threedotmenu = waitForElementPresent(findTestObject("HomepageObjects/Threedot menu on homepage"), 5)
+
+42
+00:01:15,800 --> 00:01:15,802
+121. if (Threedotmenu == true)
+
+43
+00:01:15,804 --> 00:01:15,805
+1. println("Threedotmenu  section is present on Homepage")
+
+44
+00:01:15,808 --> 00:01:15,810
+125. premiumcontentscheck = verifyElementPresent(findTestObject("HomepageObjects/Premium contents on Homepage"), 1)
+
+45
+00:01:17,855 --> 00:01:17,857
+129. if (premiumcontentscheck == true)
+
+46
+00:01:17,858 --> 00:01:17,860
+1. println("Premium contents are present on Homepage")
+
+47
+00:01:17,861 --> 00:01:17,863
+133. scrollToElement(findTestObject("HomepageObjects/ContentsPlay on Homepage"), 2)
+
+48
+00:01:22,147 --> 00:01:22,181
+137. delay(10)
+
+49
+00:01:32,185 --> 00:01:32,186
+141. click(findTestObject("HomepageObjects/ContentsPlay on Homepage"))
+
+50
+00:01:36,415 --> 00:01:36,416
+145. delay(30)
+
+51
+00:02:06,431 --> 00:02:06,435
+149. waitForPageLoad(20)
+
+52
+00:02:08,498 --> 00:02:08,499
+153. mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback"))
+
+53
+00:02:14,882 --> 00:02:14,883
+157. element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45)
+
+54
+00:02:17,045 --> 00:02:17,047
+161. executeJavaScript("arguments[0].click()", Arrays.asList(element))
+
+55
+00:02:19,807 --> 00:02:19,809
+165. delay(5)
+
+56
+00:02:24,834 --> 00:02:24,835
+169. navigateToUrl(appurl)
+
+57
+00:02:33,993 --> 00:02:33,995
+173. waitForPageLoad(5)
+
+58
+00:02:36,029 --> 00:02:36,030
+177. maximizeWindow()
+
+59
+00:02:38,109 --> 00:02:38,112
+181. waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5)
+
+60
+00:02:40,182 --> 00:02:40,184
+185. carousalcheck = verifyElementPresent(findTestObject("HomepageObjects/Carousal on Homepage"), 5)
+
+61
+00:02:42,246 --> 00:02:42,248
+189. if (carousalcheck == true)
+
+62
+00:02:42,291 --> 00:02:42,292
+1. println("Carousal is present on Homepage")
+
+63
+00:02:42,293 --> 00:02:42,293
+193. aboutUs = getText(findTestObject("HomepageObjects/AboutUs on Homepage"))
+
+64
+00:02:46,368 --> 00:02:46,368
+197. println(aboutUs)
+
+65
+00:02:46,368 --> 00:02:46,368
+201. if (aboutUs.contentEquals("About Us"))
+
+66
+00:02:46,368 --> 00:02:46,376
+1. println("About Us is present on Homepage footer")
+
+67
+00:02:46,378 --> 00:02:46,380
+205. contactUs = getText(findTestObject("HomepageObjects/Contact Us on Homepage"))
+
+68
+00:02:50,458 --> 00:02:50,460
+209. println(contactUs)
+
+69
+00:02:50,460 --> 00:02:50,460
+213. if (contactUs.contentEquals("Contact Us"))
+
+70
+00:02:50,460 --> 00:02:50,468
+1. println("Contact Us is present on Homepage footer")
+
+71
+00:02:50,469 --> 00:02:50,471
+217. Help = getText(findTestObject("HomepageObjects/Help on Homepage"))
+
+72
+00:02:54,532 --> 00:02:54,534
+221. println(Help)
+
+73
+00:02:54,535 --> 00:02:54,536
+225. if (Help.contentEquals("Help"))
+
+74
+00:02:54,536 --> 00:02:54,536
+1. println("Help is present on Homepage footer")
+
+75
+00:02:54,536 --> 00:02:54,536
+229. privacypolicy = getText(findTestObject("HomepageObjects/PrivacyPolicy on Homepage"))
+
+76
+00:02:58,615 --> 00:02:58,616
+233. println(privacypolicy)
+
+77
+00:02:58,617 --> 00:02:58,619
+237. if (privacypolicy.contentEquals("Privacy Policy"))
+
+78
+00:02:58,619 --> 00:02:58,619
+1. println("PrivacyPolicy is present on Homepage footer")
+
+79
+00:02:58,619 --> 00:02:58,619
+241. termsofuse = getText(findTestObject("HomepageObjects/TermsOfuse on Homepage"))
+
+80
+00:03:02,691 --> 00:03:02,691
+245. println(termsofuse)
+
+81
+00:03:02,691 --> 00:03:02,691
+249. if (termsofuse.contentEquals("Terms of Use"))
+
+82
+00:03:02,691 --> 00:03:02,691
+1. println("TermsOfuse is present on Homepage footer")
+
+83
+00:03:02,691 --> 00:03:02,704
+253. closeBrowser()
+

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Zee5TestSuite,,,2019-01-29 11:01:35,2019-01-29 11:01:58,23.860s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-333-Home Page,,HomepageLoad after navigating to url,2019-01-29 11:01:35,2019-01-29 11:01:45,9.929s,FAILED
+"openBrowser("""")",,,2019-01-29 11:01:37,2019-01-29 11:01:43,5.745s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-334-Originals,,,2019-01-29 11:01:45,2019-01-29 11:01:50,5.109s,FAILED
+"openBrowser("""")",,,2019-01-29 11:01:47,2019-01-29 11:01:48,1.024s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-335-Shows,,HomepageLoad after navigating to url,2019-01-29 11:01:50,2019-01-29 11:01:54,4.103s,FAILED
+"openBrowser("""")",,,2019-01-29 11:01:51,2019-01-29 11:01:52,0.942s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-336-Live Tv,,,2019-01-29 11:01:54,2019-01-29 11:01:58,3.913s,FAILED
+"openBrowser("""")",,,2019-01-29 11:01:55,2019-01-29 11:01:56,0.938s,FAILED

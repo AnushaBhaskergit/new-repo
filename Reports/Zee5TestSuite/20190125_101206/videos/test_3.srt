@@ -1,0 +1,432 @@
+1
+00:00:00,759 --> 00:00:00,761
+1. openBrowser("")
+
+2
+00:00:07,892 --> 00:00:07,893
+5. navigateToUrl(appurl)
+
+3
+00:00:20,311 --> 00:00:20,311
+9. waitForPageLoad(2)
+
+4
+00:00:22,340 --> 00:00:22,341
+13. maximizeWindow()
+
+5
+00:00:25,624 --> 00:00:25,625
+17. delay(2)
+
+6
+00:00:27,629 --> 00:00:27,630
+21. zee5 = waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5)
+
+7
+00:00:29,678 --> 00:00:29,679
+25. if (zee5 == true)
+
+8
+00:00:29,681 --> 00:00:29,682
+1. log = new com.kms.katalon.core.logging.KeywordLogger()
+
+9
+00:00:29,684 --> 00:00:29,686
+29. delay(5)
+
+10
+00:00:34,689 --> 00:00:34,691
+33. delay(5)
+
+11
+00:00:39,694 --> 00:00:39,696
+37. shows = waitForElementPresent(findTestObject("TVShowspageObjects/Shows on homepage"), 5)
+
+12
+00:00:41,760 --> 00:00:41,762
+41. if (shows == true)
+
+13
+00:00:41,764 --> 00:00:41,764
+1. log = new com.kms.katalon.core.logging.KeywordLogger()
+
+14
+00:00:41,764 --> 00:00:41,764
+5. println("Shows section is present on Homepage")
+
+15
+00:00:41,764 --> 00:00:41,764
+45. click(findTestObject("TVShowspageObjects/Shows on homepage"))
+
+16
+00:00:45,910 --> 00:00:45,912
+49. driver = getWebDriver()
+
+17
+00:00:45,914 --> 00:00:45,915
+53. i = driver.findElements(By.xpath("//span[@class="ng-star-inserted"]"))
+
+18
+00:00:49,211 --> 00:00:49,212
+57. println("Click on view all of episodes")
+
+19
+00:00:49,214 --> 00:00:49,215
+61. get(1).click()
+
+20
+00:00:52,059 --> 00:00:52,060
+65. waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 10)
+
+21
+00:00:54,086 --> 00:00:54,087
+69. delay(10)
+
+22
+00:01:04,091 --> 00:01:04,094
+73. verifyElementPresent(findTestObject("Object Repository/TVShowspageObjects/Thumbnailchecks"), 5)
+
+23
+00:01:06,135 --> 00:01:06,136
+77. println("Thumbnails are present")
+
+24
+00:01:06,137 --> 00:01:06,139
+81. delay(12)
+
+25
+00:01:18,144 --> 00:01:18,147
+85. g = xpath("//img[@class="thumbnail-image"]"))[1].click()
+
+26
+00:01:22,288 --> 00:01:22,291
+89. delay(45)
+
+27
+00:02:07,296 --> 00:02:07,298
+93. mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback"))
+
+28
+00:02:13,443 --> 00:02:13,444
+97. element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45)
+
+29
+00:02:15,595 --> 00:02:15,597
+101. executeJavaScript("arguments[0].click()", Arrays.asList(element))
+
+30
+00:02:17,658 --> 00:02:17,659
+105. delay(2)
+
+31
+00:02:19,660 --> 00:02:19,663
+109. text = getText(findTestObject("Object Repository/TVShowspageObjects/TitleofPlayingcontent"))
+
+32
+00:02:23,734 --> 00:02:23,735
+113. println(text)
+
+33
+00:02:23,737 --> 00:02:23,738
+117. comment(text)
+
+34
+00:02:23,741 --> 00:02:23,742
+121. obtainedList = new java.util.ArrayList()
+
+35
+00:02:23,743 --> 00:02:23,744
+125. mySelector = By.xpath("//div[@class="titleoneepisode ng-star-inserted"]")
+
+36
+00:02:23,745 --> 00:02:23,746
+129. elementList = driver.findElements(mySelector)
+
+37
+00:02:25,768 --> 00:02:25,769
+133. for (org.openqa.selenium.WebElement we : elementList)
+
+38
+00:02:25,771 --> 00:02:25,772
+1. comment(we.getText())
+
+39
+00:02:27,820 --> 00:02:27,821
+5. obtainedList.add(we.getText())
+
+40
+00:02:29,871 --> 00:02:29,872
+1. comment(we.getText())
+
+41
+00:02:31,904 --> 00:02:31,905
+5. obtainedList.add(we.getText())
+
+42
+00:02:33,927 --> 00:02:33,928
+1. comment(we.getText())
+
+43
+00:02:35,955 --> 00:02:35,958
+5. obtainedList.add(we.getText())
+
+44
+00:02:37,980 --> 00:02:37,983
+1. comment(we.getText())
+
+45
+00:02:40,012 --> 00:02:40,014
+5. obtainedList.add(we.getText())
+
+46
+00:02:42,036 --> 00:02:42,037
+1. comment(we.getText())
+
+47
+00:02:44,103 --> 00:02:44,104
+5. obtainedList.add(we.getText())
+
+48
+00:02:46,124 --> 00:02:46,125
+1. comment(we.getText())
+
+49
+00:02:48,159 --> 00:02:48,160
+5. obtainedList.add(we.getText())
+
+50
+00:02:50,194 --> 00:02:50,196
+1. comment(we.getText())
+
+51
+00:02:52,246 --> 00:02:52,247
+5. obtainedList.add(we.getText())
+
+52
+00:02:54,275 --> 00:02:54,278
+1. comment(we.getText())
+
+53
+00:02:56,309 --> 00:02:56,310
+5. obtainedList.add(we.getText())
+
+54
+00:02:58,346 --> 00:02:58,348
+1. comment(we.getText())
+
+55
+00:03:00,389 --> 00:03:00,390
+5. obtainedList.add(we.getText())
+
+56
+00:03:02,415 --> 00:03:02,416
+1. comment(we.getText())
+
+57
+00:03:04,458 --> 00:03:04,459
+5. obtainedList.add(we.getText())
+
+58
+00:03:06,479 --> 00:03:06,480
+1. comment(we.getText())
+
+59
+00:03:08,510 --> 00:03:08,514
+5. obtainedList.add(we.getText())
+
+60
+00:03:10,544 --> 00:03:10,545
+1. comment(we.getText())
+
+61
+00:03:12,656 --> 00:03:12,656
+5. obtainedList.add(we.getText())
+
+62
+00:03:14,681 --> 00:03:14,682
+1. comment(we.getText())
+
+63
+00:03:16,716 --> 00:03:16,717
+5. obtainedList.add(we.getText())
+
+64
+00:03:18,734 --> 00:03:18,735
+1. comment(we.getText())
+
+65
+00:03:20,833 --> 00:03:20,834
+5. obtainedList.add(we.getText())
+
+66
+00:03:22,997 --> 00:03:22,998
+1. comment(we.getText())
+
+67
+00:03:25,034 --> 00:03:25,035
+5. obtainedList.add(we.getText())
+
+68
+00:03:27,061 --> 00:03:27,062
+1. comment(we.getText())
+
+69
+00:03:29,093 --> 00:03:29,094
+5. obtainedList.add(we.getText())
+
+70
+00:03:31,113 --> 00:03:31,114
+1. comment(we.getText())
+
+71
+00:03:33,141 --> 00:03:33,142
+5. obtainedList.add(we.getText())
+
+72
+00:03:35,180 --> 00:03:35,181
+1. comment(we.getText())
+
+73
+00:03:37,222 --> 00:03:37,223
+5. obtainedList.add(we.getText())
+
+74
+00:03:39,246 --> 00:03:39,247
+1. comment(we.getText())
+
+75
+00:03:41,320 --> 00:03:41,321
+5. obtainedList.add(we.getText())
+
+76
+00:03:43,339 --> 00:03:43,339
+1. comment(we.getText())
+
+77
+00:03:45,427 --> 00:03:45,428
+5. obtainedList.add(we.getText())
+
+78
+00:03:47,449 --> 00:03:47,452
+137. sortedList = new java.util.ArrayList()
+
+79
+00:03:47,452 --> 00:03:47,452
+141. for (String s : obtainedList)
+
+80
+00:03:47,452 --> 00:03:47,452
+1. sortedList.add(s)
+
+81
+00:03:47,452 --> 00:03:47,452
+1. sortedList.add(s)
+
+82
+00:03:47,452 --> 00:03:47,452
+1. sortedList.add(s)
+
+83
+00:03:47,452 --> 00:03:47,468
+1. sortedList.add(s)
+
+84
+00:03:47,468 --> 00:03:47,468
+1. sortedList.add(s)
+
+85
+00:03:47,468 --> 00:03:47,468
+1. sortedList.add(s)
+
+86
+00:03:47,468 --> 00:03:47,468
+1. sortedList.add(s)
+
+87
+00:03:47,468 --> 00:03:47,468
+1. sortedList.add(s)
+
+88
+00:03:47,468 --> 00:03:47,468
+1. sortedList.add(s)
+
+89
+00:03:47,483 --> 00:03:47,483
+1. sortedList.add(s)
+
+90
+00:03:47,483 --> 00:03:47,483
+1. sortedList.add(s)
+
+91
+00:03:47,483 --> 00:03:47,483
+1. sortedList.add(s)
+
+92
+00:03:47,483 --> 00:03:47,483
+1. sortedList.add(s)
+
+93
+00:03:47,483 --> 00:03:47,483
+1. sortedList.add(s)
+
+94
+00:03:47,500 --> 00:03:47,501
+1. sortedList.add(s)
+
+95
+00:03:47,501 --> 00:03:47,501
+1. sortedList.add(s)
+
+96
+00:03:47,501 --> 00:03:47,501
+1. sortedList.add(s)
+
+97
+00:03:47,501 --> 00:03:47,501
+1. sortedList.add(s)
+
+98
+00:03:47,501 --> 00:03:47,501
+1. sortedList.add(s)
+
+99
+00:03:47,516 --> 00:03:47,516
+1. sortedList.add(s)
+
+100
+00:03:47,516 --> 00:03:47,516
+145. Collections.sort(sortedList)
+
+101
+00:03:47,532 --> 00:03:47,532
+149. Collections.reverse(sortedList)
+
+102
+00:03:47,532 --> 00:03:47,532
+153. Assert.assertTrue("titles are in ascending order", sortedList.equals(obtainedList))
+
+103
+00:03:47,532 --> 00:03:47,548
+157. navigateToUrl(appurl)
+
+104
+00:04:01,156 --> 00:04:01,157
+161. waitForElementPresent(findTestObject("TVShowspageObjects/Shows on homepage"), 10)
+
+105
+00:04:03,201 --> 00:04:03,202
+165. premiumcontentscheck = verifyElementPresent(findTestObject("HomepageObjects/Premium contents on Homepage"), 1)
+
+106
+00:04:05,240 --> 00:04:05,242
+169. if (premiumcontentscheck == true)
+
+107
+00:04:05,244 --> 00:04:05,244
+1. println("Premium contents are present on Homepage")
+
+108
+00:04:05,244 --> 00:04:05,244
+173. closeBrowser()
+

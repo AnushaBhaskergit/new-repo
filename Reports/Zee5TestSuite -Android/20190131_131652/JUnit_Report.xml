@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Zee5TestSuite -Android" time="98" tests="1" failures="0" errors="0">
+   <testsuite name="Zee5TestSuite -Android" tests="1" failures="0" errors="0" time="98" timestamp="2019-01-31 13:17:00" hostname="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com" id="Test Suites/Zee5TestSuite -Android">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests-AndroidBrowser\\Reports\\Zee5TestSuite -Android\\20190131_131652"/>
+         <property name="logFiles" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests-AndroidBrowser\\Reports\\Zee5TestSuite -Android\\20190131_131652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.99"/>
+         <property name="hostAddress" value="10.196.224.130"/>
+         <property name="sessionId" value="994df050-e6c2-4fb1-9150-b2081e88bbb8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase-Amazon" classname="Test Cases/TestCase-Amazon" status="PASSED">
+         <system-out><![CDATA[2019-01-31 13:17:00 - [TEST_CASE][PASSED] - Test Cases/TestCase-Amazon: Test Cases/TestCase-Amazon
+
+2019-01-31 13:17:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - Starting 'Kobiton Device' driver
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['platformVersion', '5.1.1']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Moto G (3rd Gen)']
+
+2019-01-31 13:17:03 - [MESSAGE][INFO] - Connecting to remote web server 'http://zee1235test:52e3bef6-3e31-4ba9-8a0f-8d3a51a15274@api.kobiton.com/wd/hub' with type 'Appium'
+
+2019-01-31 13:17:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 13:17:48 - [TEST_STEP][PASSED] - navigateToUrl("www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+2019-01-31 13:17:53 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+2019-01-31 13:17:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Amazon/AmazonLogo"), 10): Object 'Object Repository/Amazon/AmazonLogo' is present
+
+2019-01-31 13:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/AmazonLogo' is present
+
+2019-01-31 13:18:06 - [TEST_STEP][PASSED] - t = waitForElementPresent(findTestObject("Amazon/Departments"), 10): Object 'Object Repository/Amazon/Departments' is not present after 10 second(s)
+
+2019-01-31 13:18:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='departments']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-31 13:18:17 - [MESSAGE][WARNING] - Object 'Object Repository/Amazon/Departments' is not present after 10 second(s)
+
+2019-01-31 13:18:17 - [TEST_STEP][PASSED] - if (t == true): null
+
+2019-01-31 13:18:17 - [TEST_STEP][PASSED] - else: Departments did not open
+
+2019-01-31 13:18:17 - [TEST_STEP][PASSED] - comment("Departments did not open"): Departments did not open
+
+2019-01-31 13:18:17 - [MESSAGE][INFO] - Departments did not open
+
+2019-01-31 13:18:17 - [TEST_STEP][PASSED] - g = waitForElementPresent(findTestObject("Object Repository/Amazon/Music"), 10): Object 'Object Repository/Amazon/Music' is not present after 10 second(s)
+
+2019-01-31 13:18:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='Music']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-31 13:18:32 - [MESSAGE][WARNING] - Object 'Object Repository/Amazon/Music' is not present after 10 second(s)
+
+2019-01-31 13:18:32 - [TEST_STEP][PASSED] - if (t == true): null
+
+2019-01-31 13:18:32 - [TEST_STEP][PASSED] - else: Music did not open
+
+2019-01-31 13:18:32 - [TEST_STEP][PASSED] - comment("Music did not open"): Music did not open
+
+2019-01-31 13:18:32 - [MESSAGE][INFO] - Music did not open
+
+2019-01-31 13:18:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-31 13:18:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 13:17:00 - [TEST_SUITE][PASSED] - Zee5TestSuite -Android: Test Cases/TestCase-Amazon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

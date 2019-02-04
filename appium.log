@@ -1,0 +1,72 @@
+[Appium] Welcome to Appium v1.7.1
+[Appium] Non-default server args:
+[Appium]   port: 58326
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 58379
+[Appium]   tmpDir: C:\Users\ANUSHA~1.BHA\AppData\Local\Temp\\Katalon\Appium\Temp1548864193544
+[Appium] Appium REST http interface listener started on 0.0.0.0:58326
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 6 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\anusha.g.bhasker\\Katalon Studio\\Zee5test_Androidtests.prj\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"samsung SM-G570F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"42003592dae5935d"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\anusha.g.bhasker\\Katalon Studio\\Zee5test_Androidtests.prj\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"samsung SM-G570F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"42003592dae5935d"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidUiautomator2Driver (v0.6.5) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\anusha.g.bhasker\\Katalon Studio\\Zee5test_Androidtests.prj\\androidapp\\APIDemos.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: 'uiautomator2'
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'samsung SM-G570F (Android 8.0.0)'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '42003592dae5935d'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: dfd96f20-7930-44e0-88e9-8eb1dcb60814
+[BaseDriver] Using local app 'C:\Users\anusha.g.bhasker\Katalon Studio\Zee5test_Androidtests.prj\androidapp\APIDemos.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 42003592dae5935d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\platform-tools\adb.exe
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[ADB] io.appium.settings was not uninstalled, because it was not present on the device
+[AndroidDriver] Ignored error while installing Appium Settings helper: 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\anusha.g.bhasker\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 42003592dae5935d install C\:\\Users\\anusha.g.bhasker\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk' exited with code 1'; Stderr: 'adb: failed to install C:\Users\anusha.g.bhasker\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk: 
+Exception occurred while executing:
+android.os.ParcelableException: java.io.IOException: Requested internal only, but not enough space
+	at android.util.ExceptionUtils.wrap(ExceptionUtils.java:34)
+	at com.android.server.pm.PackageInstallerService.createSession(PackageInstallerService.java:647)
+	at com.android.server.pm.PackageManagerShellCommand.doCreateSession(PackageManagerShellCommand.java:1347)
+	at com.android.server.pm.PackageManagerShellCommand.runInstall(PackageManagerShellCommand.java:199)
+	at com.'; Code: '1''. Expect some Appium features may not work as expected unless this problem is fixed.[AndroidDriver] Failed to launch settings app: Error occured while starting App. Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[[ADB] Checking whether zipalign is present
+[ADB] Using zipalign.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe[ADB] Checking whether zipalign is present
+[ADB] Using zipalign.exe from C:\Users\anusha.[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[ADB] Extra[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\anusha.g.bhasker\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[UiAutomator2] Starting uiautomator2 server v0.1.8
+[UiAutomator2] Running command: 'adb -s 42003592dae5935d shell am instrument[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without session id
+ online...
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without session id
+[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\anusha.g.bhasker\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 42003592dae5935d forward --remove tcp\:8200' exited with code 1'; Stderr: 'error: listener 'tcp:8200' not found'; Code: '1''

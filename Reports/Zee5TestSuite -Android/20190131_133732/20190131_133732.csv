@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Zee5TestSuite -Android,Chrome 71.0.3578.99,,2019-01-31 13:37:40,2019-01-31 13:39:37,1m - 56.916s,PASSED
+,,,,,,
+Test Cases/TestCase-Amazon,Chrome 71.0.3578.99,,2019-01-31 13:37:40,2019-01-31 13:39:36,1m - 56.153s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-31 13:37:42,2019-01-31 13:38:36,54.719s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 71.0.3578.99,,2019-01-31 13:38:36,2019-01-31 13:38:47,11.115s,PASSED
+"waitForElementPresent(findTestObject(""Amazon/AmazonLogo""), 10)",Chrome 71.0.3578.99,,2019-01-31 13:38:47,2019-01-31 13:39:05,17.284s,PASSED
+"t = waitForElementPresent(findTestObject(""Amazon/Departments""), 10)",Chrome 71.0.3578.99,,2019-01-31 13:39:05,2019-01-31 13:39:16,11.356s,PASSED
+if (t == true),Chrome 71.0.3578.99,,2019-01-31 13:39:16,2019-01-31 13:39:16,0.040s,PASSED
+else,Chrome 71.0.3578.99,,2019-01-31 13:39:16,2019-01-31 13:39:16,0.100s,PASSED
+"g = waitForElementPresent(findTestObject(""Object Repository/Amazon/Music""), 10)",Chrome 71.0.3578.99,,2019-01-31 13:39:16,2019-01-31 13:39:29,12.659s,PASSED
+if (t == true),Chrome 71.0.3578.99,,2019-01-31 13:39:29,2019-01-31 13:39:29,0.050s,PASSED
+else,Chrome 71.0.3578.99,,2019-01-31 13:39:29,2019-01-31 13:39:29,0.042s,PASSED
+closeBrowser(),Chrome 71.0.3578.99,,2019-01-31 13:39:29,2019-01-31 13:39:34,4.772s,PASSED

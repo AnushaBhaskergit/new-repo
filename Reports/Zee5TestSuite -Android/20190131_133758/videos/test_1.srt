@@ -1,0 +1,40 @@
+1
+00:00:01,484 --> 00:00:01,501
+1. openBrowser("")
+
+2
+00:01:18,038 --> 00:01:18,042
+5. navigateToUrl("www.amazon.com")
+
+3
+00:01:23,712 --> 00:01:23,714
+9. waitForElementPresent(findTestObject("Amazon/AmazonLogo"), 10)
+
+4
+00:01:37,075 --> 00:01:37,077
+13. t = waitForElementPresent(findTestObject("Amazon/Departments"), 10)
+
+5
+00:01:48,780 --> 00:01:48,780
+17. if (t == true)
+
+6
+00:01:48,799 --> 00:01:48,799
+2. comment("Departments did not open")
+
+7
+00:01:48,909 --> 00:01:48,910
+21. g = waitForElementPresent(findTestObject("Object Repository/Amazon/Music"), 10)
+
+8
+00:02:01,297 --> 00:02:01,299
+25. if (t == true)
+
+9
+00:02:01,308 --> 00:02:01,311
+2. comment("Music did not open")
+
+10
+00:02:01,314 --> 00:02:01,317
+29. closeBrowser()
+

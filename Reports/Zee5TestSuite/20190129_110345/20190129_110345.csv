@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Zee5TestSuite,Chrome 71.0.3578.99,,2019-01-29 11:03:55,2019-01-29 11:05:12,1m - 17.425s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-333-Home Page,Chrome 71.0.3578.99,HomepageLoad after navigating to url,2019-01-29 11:03:55,2019-01-29 11:04:59,1m - 3.646s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-29 11:03:57,2019-01-29 11:04:48,51.219s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.99,,2019-01-29 11:04:48,2019-01-29 11:04:52,3.716s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.99,,2019-01-29 11:04:52,2019-01-29 11:04:53,0.772s,PASSED
+maximizeWindow(),Chrome 71.0.3578.99,,2019-01-29 11:04:53,2019-01-29 11:04:57,4.149s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-334-Originals,Chrome 71.0.3578.99,,2019-01-29 11:04:59,2019-01-29 11:05:05,5.675s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-29 11:05:00,2019-01-29 11:05:02,2.740s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-335-Shows,Chrome 71.0.3578.99,HomepageLoad after navigating to url,2019-01-29 11:05:05,2019-01-29 11:05:08,3.891s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-29 11:05:06,2019-01-29 11:05:06,0.863s,FAILED
+,,,,,,
+Test Cases/Test Case Z5-336-Live Tv,Chrome 71.0.3578.99,,2019-01-29 11:05:08,2019-01-29 11:05:12,3.513s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-29 11:05:09,2019-01-29 11:05:10,0.800s,FAILED

@@ -1,0 +1,292 @@
+1
+00:00:00,948 --> 00:00:00,949
+1. openBrowser("")
+
+2
+00:00:08,391 --> 00:00:08,393
+5. navigateToUrl(appurl)
+
+3
+00:00:20,362 --> 00:00:20,364
+9. waitForPageLoad(2)
+
+4
+00:00:22,386 --> 00:00:22,388
+13. maximizeWindow()
+
+5
+00:00:25,617 --> 00:00:25,618
+17. delay(2)
+
+6
+00:00:27,620 --> 00:00:27,621
+21. zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5)
+
+7
+00:00:29,667 --> 00:00:29,669
+25. if (zee5 == true)
+
+8
+00:00:29,669 --> 00:00:29,669
+1. println("Homepage Loaded successfully")
+
+9
+00:00:29,669 --> 00:00:29,669
+29. delay(5)
+
+10
+00:00:34,669 --> 00:00:34,670
+33. delay(5)
+
+11
+00:00:39,675 --> 00:00:39,676
+37. click(findTestObject("LoginpageObjects/SelectLoginonHomepage"))
+
+12
+00:00:44,052 --> 00:00:44,055
+41. waitForElementPresent(findTestObject("LoginpageObjects/EnterMobileNumber"), 10)
+
+13
+00:00:46,103 --> 00:00:46,103
+45. click(findTestObject("LoginpageObjects/EnterMobileNumber"))
+
+14
+00:00:50,334 --> 00:00:50,335
+49. sendKeys(findTestObject("LoginpageObjects/EnterMobileNumber"), MobileNumber)
+
+15
+00:00:54,706 --> 00:00:54,707
+53. click(findTestObject("LoginpageObjects/Enterpassword"))
+
+16
+00:00:58,860 --> 00:00:58,861
+57. sendKeys(findTestObject("LoginpageObjects/Enterpassword"), Password)
+
+17
+00:01:03,160 --> 00:01:03,161
+61. click(findTestObject("LoginpageObjects/ClickonLoginButton"))
+
+18
+00:01:07,387 --> 00:01:07,388
+65. waitForElementPresent(findTestObject("LoginpageObjects/LoginValidation"), 10)
+
+19
+00:01:13,947 --> 00:01:13,949
+69. click(findTestObject("LiveTvObjects/MoreoptionsonHomepage"))
+
+20
+00:01:19,196 --> 00:01:19,198
+73. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3)
+
+21
+00:01:21,255 --> 00:01:21,256
+77. click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"))
+
+22
+00:01:25,371 --> 00:01:25,373
+81. driver = getWebDriver()
+
+23
+00:01:25,376 --> 00:01:25,378
+85. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5)
+
+24
+00:01:30,613 --> 00:01:30,613
+89. g = xpath("//img[@class="thumbnail-image"]"))[1].click()
+
+25
+00:01:35,022 --> 00:01:35,023
+93. delay(45)
+
+26
+00:02:20,027 --> 00:02:20,029
+97. mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback"))
+
+27
+00:02:26,175 --> 00:02:26,177
+101. element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45)
+
+28
+00:02:28,218 --> 00:02:28,219
+105. executeJavaScript("arguments[0].click()", Arrays.asList(element))
+
+29
+00:02:30,272 --> 00:02:30,273
+109. delay(2)
+
+30
+00:02:32,276 --> 00:02:32,278
+113. click(findTestObject("LiveTvObjects/MoreoptionsonHomepage"))
+
+31
+00:02:36,386 --> 00:02:36,388
+117. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3)
+
+32
+00:02:38,420 --> 00:02:38,421
+121. click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"))
+
+33
+00:02:42,683 --> 00:02:42,685
+125. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5)
+
+34
+00:02:47,770 --> 00:02:47,772
+129. delay(5)
+
+35
+00:02:52,783 --> 00:02:52,784
+133. waitForElementPresent(findTestObject("Object Repository/OriginalspageObjects/Selectanepisode"), 5)
+
+36
+00:02:54,951 --> 00:02:54,952
+137. click(findTestObject("Object Repository/OriginalspageObjects/Selectanepisode"))
+
+37
+00:02:59,245 --> 00:02:59,246
+141. delay(45)
+
+38
+00:03:44,250 --> 00:03:44,252
+145. mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback"))
+
+39
+00:03:50,469 --> 00:03:50,470
+149. element1 = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45)
+
+40
+00:03:52,538 --> 00:03:52,539
+153. executeJavaScript("arguments[0].click()", Arrays.asList(element1))
+
+41
+00:03:54,589 --> 00:03:54,590
+157. delay(2)
+
+42
+00:03:56,594 --> 00:03:56,596
+161. obtainedList = new java.util.ArrayList()
+
+43
+00:03:56,597 --> 00:03:56,597
+165. mySelector = By.xpath("//div[@class="titleoneepisode ng-star-inserted"]")
+
+44
+00:03:56,597 --> 00:03:56,597
+169. elementList = driver.findElements(mySelector)
+
+45
+00:03:58,627 --> 00:03:58,628
+173. for (org.openqa.selenium.WebElement we : elementList)
+
+46
+00:03:58,630 --> 00:03:58,631
+1. comment(we.getText())
+
+47
+00:04:00,690 --> 00:04:00,691
+5. obtainedList.add(we.getText())
+
+48
+00:04:02,728 --> 00:04:02,729
+1. comment(we.getText())
+
+49
+00:04:04,758 --> 00:04:04,761
+5. obtainedList.add(we.getText())
+
+50
+00:04:06,787 --> 00:04:06,788
+1. comment(we.getText())
+
+51
+00:04:08,821 --> 00:04:08,821
+5. obtainedList.add(we.getText())
+
+52
+00:04:10,842 --> 00:04:10,843
+1. comment(we.getText())
+
+53
+00:04:12,880 --> 00:04:12,881
+5. obtainedList.add(we.getText())
+
+54
+00:04:14,905 --> 00:04:14,908
+177. sortedList = new java.util.ArrayList()
+
+55
+00:04:14,936 --> 00:04:14,938
+181. for (String s : obtainedList)
+
+56
+00:04:14,939 --> 00:04:14,940
+1. sortedList.add(s)
+
+57
+00:04:14,942 --> 00:04:14,943
+1. sortedList.add(s)
+
+58
+00:04:14,944 --> 00:04:14,945
+1. sortedList.add(s)
+
+59
+00:04:14,946 --> 00:04:14,947
+1. sortedList.add(s)
+
+60
+00:04:14,948 --> 00:04:14,949
+185. Collections.sort(sortedList)
+
+61
+00:04:14,964 --> 00:04:14,967
+189. Assert.assertTrue("titles are in ascending order", sortedList.equals(obtainedList))
+
+62
+00:04:14,990 --> 00:04:14,994
+193. click(findTestObject("LiveTvObjects/MoreoptionsonHomepage"))
+
+63
+00:04:19,186 --> 00:04:19,187
+197. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3)
+
+64
+00:04:21,231 --> 00:04:21,232
+201. click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"))
+
+65
+00:04:25,443 --> 00:04:25,445
+205. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5)
+
+66
+00:04:30,644 --> 00:04:30,644
+209. a = xpath("//img[@class='thumbnail-image']")).size()
+
+67
+00:04:32,774 --> 00:04:32,775
+213. b = xpath("//div[@class='premium-button ng-star-inserted']")).size()
+
+68
+00:04:34,832 --> 00:04:34,833
+217. if (a == b)
+
+69
+00:04:34,870 --> 00:04:34,871
+2. comment("All originals contents are not premium")
+
+70
+00:04:34,873 --> 00:04:34,874
+221. comment("Count of Thumbnails in Originals page are :" + a)
+
+71
+00:04:34,879 --> 00:04:34,880
+225. if (a != 0)
+
+72
+00:04:34,881 --> 00:04:34,883
+1. comment("Thumbnails are present in Originals page")
+
+73
+00:04:34,885 --> 00:04:34,887
+229. closeBrowser()
+

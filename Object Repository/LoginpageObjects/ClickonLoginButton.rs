@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ClickonLoginButton</name>
+   <tag></tag>
+   <elementGuidId>2e05afb3-1b03-4997-97c6-0ad8c3e254b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class=&quot;registerSubmit_highlighted&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class=&quot;registerSubmit_highlighted&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

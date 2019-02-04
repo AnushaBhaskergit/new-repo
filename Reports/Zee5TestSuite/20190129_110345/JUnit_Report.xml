@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Zee5TestSuite" time="77" tests="0" failures="4" errors="0">
+   <testsuite name="Zee5TestSuite" tests="0" failures="4" errors="0" time="77" timestamp="2019-01-29 11:03:55" hostname="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com" id="Test Suites/Zee5TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190129_110345"/>
+         <property name="logFiles" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190129_110345\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190129_110345\\1548740093655.png"/>
+         <property name="hostName" value="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.99"/>
+         <property name="hostAddress" value="10.196.224.205"/>
+         <property name="sessionId" value="4782783b-0d94-417c-9d66-6f1d3076a097"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case Z5-333-Home Page" classname="Test Cases/Test Case Z5-333-Home Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Case Z5-333-Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {&quot;code&quot;:-32601,&quot;message&quot;:&quot;'Browser.setWindowBounds' wasn't found&quot;}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-29 11:03:55 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-333-Home Page: Test Cases/Test Case Z5-333-Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:03:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - Starting 'Kobiton Device' driver
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['platformVersion', '5.1.1']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Galaxy Note4']
+
+2019-01-29 11:03:58 - [MESSAGE][INFO] - Connecting to remote web server 'http://anusha.g.bhasker:f2827181-52b7-42ba-a8e1-f32df96c6197@api.kobiton.com/wd/hub' with type 'Appium'
+
+2019-01-29 11:04:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-29 11:04:48 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-29 11:04:52 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-29 11:04:52 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-29 11:04:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-29 11:04:53 - [TEST_STEP][FAILED] - maximizeWindow(): maximizeWindow() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:04:57 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+[[ATTACHMENT|C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190129_110345\\1548740093655.png]]
+
+2019-01-29 11:04:57 - [MESSAGE][FAILED] - maximizeWindow() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-29 11:03:55 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-333-Home Page: Test Cases/Test Case Z5-333-Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-334-Originals" classname="Test Cases/Test Case Z5-334-Originals" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Case Z5-334-Originals FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-334-Originals.run(Test Case Z5-334-Originals:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-29 11:04:59 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-334-Originals: Test Cases/Test Case Z5-334-Originals FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-334-Originals.run(Test Case Z5-334-Originals:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:00 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-334-Originals.run(Test Case Z5-334-Originals:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - Starting 'Kobiton Device' driver
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['platformVersion', '5.1.1']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Galaxy Note4']
+
+2019-01-29 11:05:01 - [MESSAGE][INFO] - Connecting to remote web server 'http://anusha.g.bhasker:f2827181-52b7-42ba-a8e1-f32df96c6197@api.kobiton.com/wd/hub' with type 'Appium'
+
+2019-01-29 11:05:02 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2019-01-29 11:05:02 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-334-Originals.run(Test Case Z5-334-Originals:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-29 11:04:59 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-334-Originals: Test Cases/Test Case Z5-334-Originals FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 905 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-334-Originals.run(Test Case Z5-334-Originals:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-335-Shows" classname="Test Cases/Test Case Z5-335-Shows" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Case Z5-335-Shows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-335-Shows.run(Test Case Z5-335-Shows:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-29 11:05:05 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-335-Shows: Test Cases/Test Case Z5-335-Shows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-335-Shows.run(Test Case Z5-335-Shows:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:06 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-335-Shows.run(Test Case Z5-335-Shows:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - Starting 'Kobiton Device' driver
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['platformVersion', '5.1.1']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Galaxy Note4']
+
+2019-01-29 11:05:06 - [MESSAGE][INFO] - Connecting to remote web server 'http://anusha.g.bhasker:f2827181-52b7-42ba-a8e1-f32df96c6197@api.kobiton.com/wd/hub' with type 'Appium'
+
+2019-01-29 11:05:06 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2019-01-29 11:05:06 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-335-Shows.run(Test Case Z5-335-Shows:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-29 11:05:05 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-335-Shows: Test Cases/Test Case Z5-335-Shows FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 761 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-335-Shows.run(Test Case Z5-335-Shows:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-336-Live Tv" classname="Test Cases/Test Case Z5-336-Live Tv" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-29 11:05:08 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-336-Live Tv: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:09 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)
+
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - Starting 'Kobiton Device' driver
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['platformVersion', '5.1.1']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Galaxy Note4']
+
+2019-01-29 11:05:09 - [MESSAGE][INFO] - Connecting to remote web server 'http://anusha.g.bhasker:f2827181-52b7-42ba-a8e1-f32df96c6197@api.kobiton.com/wd/hub' with type 'Appium'
+
+2019-01-29 11:05:10 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2019-01-29 11:05:10 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-29 11:05:08 - [TEST_CASE][FAILED] - Test Cases/Test Case Z5-336-Live Tv: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: No device matching the desired capabilities
+Command duration or timeout: 764 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-29 11:03:55 - [TEST_SUITE][FAILED] - Zee5TestSuite: Test Cases/Test Case Z5-333-Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-29 11:03:55 - [TEST_SUITE][FAILED] - Zee5TestSuite: Test Cases/Test Case Z5-333-Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: unhandled inspector error: {"code":-32601,"message":"'Browser.setWindowBounds' wasn't found"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HDC3-L-7041P2N', ip: '10.196.224.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., databaseEnabled: false, desired: {acceptSslCerts: true, automationName: UIAutomator2, browserName: chrome, captureSreenShots: true, chromedriverExecutableDir: /Applications/Kobiton.app/C..., deviceName: Galaxy Note4, deviceOrientation: portrait, fullReset: false, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, systemPort: 40455, udid: 966eccac, version: }, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SAMSUNG-SM-N910A, deviceName: 966eccac, deviceOrientation: portrait, deviceScreenSize: 1440x2560, deviceUDID: 966eccac, fullReset: false, javascriptEnabled: true, kobitonSessionId: 595399, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, orientation: PORTRAIT, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, sessionDescription: , sessionName: Automation test session, statBarHeight: 100, systemPort: 40455, takesScreenshot: true, udid: 966eccac, version: , versions: {appiumVersion: 1.9.1, nodeVersion: v7.4.0}, viewportRect: {height: 2460, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4782783b-0d94-417c-9d66-6f1d3076a097)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$2.call(Unknown Source)
+	at Test Case Z5-333-Home Page.run(Test Case Z5-333-Home Page:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548740025821.run(TempTestSuite1548740025821.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

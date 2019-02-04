@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HomePageTest Suite,Chrome 71.0.3578.98,,2019-01-17 15:48:07,2019-01-17 15:50:05,1m - 57.831s,PASSED
+,,,,,,
+Test Cases/HomepageLoad after navigating to url,Chrome 71.0.3578.98,HomepageLoad after navigating to url,2019-01-17 15:48:07,2019-01-17 15:50:05,1m - 57.408s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 15:48:08,2019-01-17 15:48:17,9.129s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-17 15:48:17,2019-01-17 15:48:26,9.083s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-01-17 15:48:26,2019-01-17 15:48:29,2.141s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-17 15:48:29,2019-01-17 15:48:32,3.170s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-17 15:48:32,2019-01-17 15:48:34,2.087s,PASSED
+"zee5 = verifyElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:34,2019-01-17 15:48:36,2.113s,PASSED
+if (zee5 == true),Chrome 71.0.3578.98,,2019-01-17 15:48:36,2019-01-17 15:48:36,0.007s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-17 15:48:36,2019-01-17 15:48:41,5.002s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-17 15:48:41,2019-01-17 15:48:46,5.005s,PASSED
+"premium = waitForElementPresent(findTestObject(""HomepageObjects/Premium on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:46,2019-01-17 15:48:48,2.091s,PASSED
+if (premium == true),Chrome 71.0.3578.98,,2019-01-17 15:48:48,2019-01-17 15:48:48,0.009s,PASSED
+"shows = waitForElementPresent(findTestObject(""HomepageObjects/Shows on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:48,2019-01-17 15:48:50,2.052s,PASSED
+if (shows == true),Chrome 71.0.3578.98,,2019-01-17 15:48:50,2019-01-17 15:48:50,0.008s,PASSED
+"movies = waitForElementPresent(findTestObject(""HomepageObjects/Movies on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:50,2019-01-17 15:48:52,2.037s,PASSED
+if (movies == true),Chrome 71.0.3578.98,,2019-01-17 15:48:52,2019-01-17 15:48:52,0.003s,PASSED
+"videos = waitForElementPresent(findTestObject(""HomepageObjects/Videos on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:52,2019-01-17 15:48:54,2.029s,PASSED
+if (videos == true),Chrome 71.0.3578.98,,2019-01-17 15:48:54,2019-01-17 15:48:54,0.006s,PASSED
+"TvGuide = waitForElementPresent(findTestObject(""HomepageObjects/TvGuide on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:54,2019-01-17 15:48:56,2.052s,PASSED
+if (TvGuide == true),Chrome 71.0.3578.98,,2019-01-17 15:48:56,2019-01-17 15:48:56,0.003s,PASSED
+"Languageicon = waitForElementPresent(findTestObject(""HomepageObjects/Language icon on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:56,2019-01-17 15:48:58,2.028s,PASSED
+if (Languageicon == true),Chrome 71.0.3578.98,,2019-01-17 15:48:58,2019-01-17 15:48:58,0.005s,PASSED
+"Searchicon = waitForElementPresent(findTestObject(""HomepageObjects/Search Icon on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:48:58,2019-01-17 15:49:00,2.021s,PASSED
+if (Searchicon == true),Chrome 71.0.3578.98,,2019-01-17 15:49:00,2019-01-17 15:49:00,0.003s,PASSED
+"Login = waitForElementPresent(findTestObject(""HomepageObjects/Login in homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:49:00,2019-01-17 15:49:02,2.027s,PASSED
+if (Login == true),Chrome 71.0.3578.98,,2019-01-17 15:49:02,2019-01-17 15:49:02,0.003s,PASSED
+"Threedotmenu = waitForElementPresent(findTestObject(""HomepageObjects/Threedot menu on homepage""), 0)",Chrome 71.0.3578.98,,2019-01-17 15:49:02,2019-01-17 15:49:04,2.023s,PASSED
+if (Threedotmenu == true),Chrome 71.0.3578.98,,2019-01-17 15:49:04,2019-01-17 15:49:04,0.001s,PASSED
+"premiumcontentscheck = verifyElementPresent(findTestObject(""HomepageObjects/Premium contents on Homepage""), 1)",Chrome 71.0.3578.98,,2019-01-17 15:49:04,2019-01-17 15:49:06,2.034s,PASSED
+if (premiumcontentscheck == true),Chrome 71.0.3578.98,,2019-01-17 15:49:06,2019-01-17 15:49:06,0.003s,PASSED
+"scrollToElement(findTestObject(""HomepageObjects/ContentsPlay on Homepage""), 1)",Chrome 71.0.3578.98,,2019-01-17 15:49:06,2019-01-17 15:49:11,4.091s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-17 15:49:11,2019-01-17 15:49:21,10.002s,PASSED
+"click(findTestObject(""HomepageObjects/ContentsPlay on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:21,2019-01-17 15:49:25,4.167s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-01-17 15:49:25,2019-01-17 15:49:27,2.340s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-17 15:49:27,2019-01-17 15:49:35,8.057s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-17 15:49:35,2019-01-17 15:49:37,2.010s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-17 15:49:37,2019-01-17 15:49:39,2.008s,PASSED
+"carousalcheck = verifyElementPresent(findTestObject(""HomepageObjects/Carousal on Homepage""), 1)",Chrome 71.0.3578.98,,2019-01-17 15:49:39,2019-01-17 15:49:41,2.048s,PASSED
+if (carousalcheck == true),Chrome 71.0.3578.98,,2019-01-17 15:49:41,2019-01-17 15:49:41,0.000s,PASSED
+"aboutUs = getText(findTestObject(""HomepageObjects/AboutUs on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:41,2019-01-17 15:49:45,4.076s,PASSED
+println(aboutUs),Chrome 71.0.3578.98,,2019-01-17 15:49:45,2019-01-17 15:49:45,0.001s,PASSED
+"if (aboutUs.contentEquals(""About Us""))",Chrome 71.0.3578.98,,2019-01-17 15:49:45,2019-01-17 15:49:45,0.003s,PASSED
+"contactUs = getText(findTestObject(""HomepageObjects/Contact Us on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:45,2019-01-17 15:49:49,4.047s,PASSED
+println(contactUs),Chrome 71.0.3578.98,,2019-01-17 15:49:49,2019-01-17 15:49:49,0.001s,PASSED
+"if (contactUs.contentEquals(""Contact Us""))",Chrome 71.0.3578.98,,2019-01-17 15:49:49,2019-01-17 15:49:49,0.003s,PASSED
+"Help = getText(findTestObject(""HomepageObjects/Help on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:49,2019-01-17 15:49:53,4.039s,PASSED
+println(Help),Chrome 71.0.3578.98,,2019-01-17 15:49:53,2019-01-17 15:49:53,0.002s,PASSED
+"if (Help.contentEquals(""Help""))",Chrome 71.0.3578.98,,2019-01-17 15:49:53,2019-01-17 15:49:53,0.002s,PASSED
+"privacypolicy = getText(findTestObject(""HomepageObjects/PrivacyPolicy on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:53,2019-01-17 15:49:57,4.068s,PASSED
+println(privacypolicy),Chrome 71.0.3578.98,,2019-01-17 15:49:57,2019-01-17 15:49:57,0.001s,PASSED
+"if (privacypolicy.contentEquals(""Privacy Policy""))",Chrome 71.0.3578.98,,2019-01-17 15:49:57,2019-01-17 15:49:57,0.000s,PASSED
+"termsofuse = getText(findTestObject(""HomepageObjects/TermsOfuse on Homepage""))",Chrome 71.0.3578.98,,2019-01-17 15:49:57,2019-01-17 15:50:01,4.048s,PASSED
+println(termsofuse),Chrome 71.0.3578.98,,2019-01-17 15:50:01,2019-01-17 15:50:01,0.001s,PASSED
+"if (termsofuse.contentEquals(""TermsofUse""))",Chrome 71.0.3578.98,,2019-01-17 15:50:01,2019-01-17 15:50:01,0.001s,PASSED
+else,Chrome 71.0.3578.98,,2019-01-17 15:50:01,2019-01-17 15:50:01,0.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 15:50:01,2019-01-17 15:50:05,3.335s,PASSED

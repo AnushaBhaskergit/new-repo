@@ -1,0 +1,96 @@
+1
+00:00:00,679 --> 00:00:00,681
+1. openBrowser("")
+
+2
+00:00:08,554 --> 00:00:08,555
+5. navigateToUrl(appurl)
+
+3
+00:00:21,318 --> 00:00:21,322
+9. waitForPageLoad(2)
+
+4
+00:00:23,338 --> 00:00:23,340
+13. maximizeWindow()
+
+5
+00:00:26,735 --> 00:00:26,738
+17. delay(2)
+
+6
+00:00:28,743 --> 00:00:28,745
+21. zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 0)
+
+7
+00:00:30,800 --> 00:00:30,801
+25. if (zee5 == true)
+
+8
+00:00:30,802 --> 00:00:30,802
+1. println("Homepage Loaded successfully")
+
+9
+00:00:30,802 --> 00:00:30,802
+29. delay(5)
+
+10
+00:00:35,803 --> 00:00:35,804
+33. click(findTestObject("LoginpageObjects/SelectLoginonHomepage"))
+
+11
+00:00:45,368 --> 00:00:45,369
+37. waitForElementPresent(findTestObject("LoginpageObjects/EnterMobileNumber"), 10)
+
+12
+00:00:47,492 --> 00:00:47,492
+41. click(findTestObject("LoginpageObjects/EnterMobileNumber"))
+
+13
+00:00:56,686 --> 00:00:56,687
+45. sendKeys(findTestObject("LoginpageObjects/EnterMobileNumber"), MobileNumber)
+
+14
+00:01:01,352 --> 00:01:01,353
+49. click(findTestObject("LoginpageObjects/Enterpassword"))
+
+15
+00:01:10,971 --> 00:01:10,972
+53. sendKeys(findTestObject("LoginpageObjects/Enterpassword"), Password)
+
+16
+00:01:16,407 --> 00:01:16,408
+57. click(findTestObject("LoginpageObjects/ClickonLoginButton"))
+
+17
+00:01:25,542 --> 00:01:25,543
+61. waitForElementPresent(findTestObject("LoginpageObjects/LoginValidation"), 10)
+
+18
+00:01:46,953 --> 00:01:46,954
+65. click(findTestObject("LiveTvObjects/MoreoptionsonHomepage"))
+
+19
+00:01:56,430 --> 00:01:56,431
+69. waitForElementPresent(findTestObject("LiveTvObjects/ChooseLiveTvfromHomepage"), 1)
+
+20
+00:01:58,476 --> 00:01:58,477
+73. click(findTestObject("LiveTvObjects/ChooseLiveTvfromHomepage"))
+
+21
+00:02:07,677 --> 00:02:07,679
+77. waitForElementPresent(findTestObject("LiveTvObjects/WaitForpageloadonLivepage"), 5)
+
+22
+00:02:09,823 --> 00:02:09,824
+81. driver = getWebDriver()
+
+23
+00:02:09,845 --> 00:02:09,847
+85. g = driver.findElements(By.xpath("//div[@class="home-grid-container ng-star-inserted"]"))
+
+24
+00:02:12,312 --> 00:02:12,313
+89. get(1).click()
+

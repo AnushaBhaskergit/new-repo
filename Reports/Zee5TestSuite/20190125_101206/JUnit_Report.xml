@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Zee5TestSuite" time="854" tests="3" failures="0" errors="1">
+   <testsuite name="Zee5TestSuite" tests="3" failures="0" errors="1" time="854" timestamp="2019-01-25 10:12:09" hostname="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com" id="Test Suites/Zee5TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190125_101206"/>
+         <property name="logFiles" value="C:\\Users\\anusha.g.bhasker\\Katalon Studio\\zee5tests\\Reports\\Zee5TestSuite\\20190125_101206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anusha.g.bhasker - HDC3-L-7041P2N.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="sessionId" value="41d926a11968b410d120284de7b3f733"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case Z5-333-Home Page" classname="Test Cases/Test Case Z5-333-Home Page" status="PASSED">
+         <system-out><![CDATA[2019-01-25 10:12:10 - [TEST_CASE][PASSED] - Test Cases/Test Case Z5-333-Home Page: Test Cases/Test Case Z5-333-Home Page
+
+2019-01-25 10:12:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-25 10:12:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-25 10:12:12 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2019-01-25 10:12:12 - [MESSAGE][INFO] - Action delay is set to 2 seconds
+
+2019-01-25 10:12:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-25 10:12:22 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:12:35 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:12:35 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-25 10:12:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:12:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-25 10:12:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-25 10:12:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:12:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:12:43 - [TEST_STEP][PASSED] - zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:12:45 - [TEST_STEP][PASSED] - if (zee5 == true): null
+
+2019-01-25 10:12:45 - [TEST_STEP][PASSED] - println("Homepage Loaded successfully"): null
+
+2019-01-25 10:12:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:12:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:12:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:12:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:12:55 - [TEST_STEP][PASSED] - premium = waitForElementPresent(findTestObject("HomepageObjects/Premium on homepage"), 2): Object 'Object Repository/HomepageObjects/Premium on homepage' is present
+
+2019-01-25 10:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Premium on homepage' is present
+
+2019-01-25 10:12:57 - [TEST_STEP][PASSED] - if (premium == true): null
+
+2019-01-25 10:12:57 - [TEST_STEP][PASSED] - println("Premium section is present on Homepage"): null
+
+2019-01-25 10:12:57 - [TEST_STEP][PASSED] - shows = waitForElementPresent(findTestObject("HomepageObjects/Shows on homepage"), 2): Object 'Object Repository/HomepageObjects/Shows on homepage' is present
+
+2019-01-25 10:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Shows on homepage' is present
+
+2019-01-25 10:12:59 - [TEST_STEP][PASSED] - if (shows == true): null
+
+2019-01-25 10:12:59 - [TEST_STEP][PASSED] - println("Shows section is present on Homepage"): null
+
+2019-01-25 10:12:59 - [TEST_STEP][PASSED] - movies = waitForElementPresent(findTestObject("HomepageObjects/Movies on homepage"), 2): Object 'Object Repository/HomepageObjects/Movies on homepage' is present
+
+2019-01-25 10:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Movies on homepage' is present
+
+2019-01-25 10:13:01 - [TEST_STEP][PASSED] - if (movies == true): null
+
+2019-01-25 10:13:01 - [TEST_STEP][PASSED] - println("Movies section is present on Homepage"): null
+
+2019-01-25 10:13:01 - [TEST_STEP][PASSED] - news = waitForElementPresent(findTestObject("HomepageObjects/News on homepage"), 2): Object 'Object Repository/HomepageObjects/News on homepage' is present
+
+2019-01-25 10:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/News on homepage' is present
+
+2019-01-25 10:13:03 - [TEST_STEP][PASSED] - if (news == true): null
+
+2019-01-25 10:13:03 - [TEST_STEP][PASSED] - println("News section is present on Homepage"): null
+
+2019-01-25 10:13:03 - [TEST_STEP][PASSED] - videos = waitForElementPresent(findTestObject("HomepageObjects/Videos on homepage"), 2): Object 'Object Repository/HomepageObjects/Videos on homepage' is present
+
+2019-01-25 10:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Videos on homepage' is present
+
+2019-01-25 10:13:06 - [TEST_STEP][PASSED] - if (videos == true): null
+
+2019-01-25 10:13:06 - [TEST_STEP][PASSED] - println("Videos section is present on Homepage"): null
+
+2019-01-25 10:13:06 - [TEST_STEP][PASSED] - livetv = waitForElementPresent(findTestObject("HomepageObjects/LiveTv on homepage"), 5): Object 'Object Repository/HomepageObjects/LiveTv on homepage' is not present after 5 second(s)
+
+2019-01-25 10:13:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="livetvText"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-25 10:13:11 - [MESSAGE][WARNING] - Object 'Object Repository/HomepageObjects/LiveTv on homepage' is not present after 5 second(s)
+
+2019-01-25 10:13:11 - [TEST_STEP][PASSED] - if (livetv == true): null
+
+2019-01-25 10:13:11 - [TEST_STEP][PASSED] - else: null
+
+2019-01-25 10:13:11 - [TEST_STEP][PASSED] - println("LiveTv section is missing on Homepage"): null
+
+2019-01-25 10:13:11 - [TEST_STEP][PASSED] - TvGuide = waitForElementPresent(findTestObject("HomepageObjects/TvGuide on homepage"), 5): Object 'Object Repository/HomepageObjects/TvGuide on homepage' is present
+
+2019-01-25 10:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/TvGuide on homepage' is present
+
+2019-01-25 10:13:13 - [TEST_STEP][PASSED] - if (TvGuide == true): null
+
+2019-01-25 10:13:13 - [TEST_STEP][PASSED] - println("TvGuide section is present on Homepage"): null
+
+2019-01-25 10:13:13 - [TEST_STEP][PASSED] - Languageicon = waitForElementPresent(findTestObject("HomepageObjects/Language icon on homepage"), 5): Object 'Object Repository/HomepageObjects/Language icon on homepage' is present
+
+2019-01-25 10:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Language icon on homepage' is present
+
+2019-01-25 10:13:15 - [TEST_STEP][PASSED] - if (Languageicon == true): null
+
+2019-01-25 10:13:15 - [TEST_STEP][PASSED] - println("Language icon section is present on Homepage"): null
+
+2019-01-25 10:13:15 - [TEST_STEP][PASSED] - Searchicon = waitForElementPresent(findTestObject("HomepageObjects/Search Icon on homepage"), 5): Object 'Object Repository/HomepageObjects/Search Icon on homepage' is present
+
+2019-01-25 10:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Search Icon on homepage' is present
+
+2019-01-25 10:13:17 - [TEST_STEP][PASSED] - if (Searchicon == true): null
+
+2019-01-25 10:13:17 - [TEST_STEP][PASSED] - println("Search Icon section is present on Homepage"): null
+
+2019-01-25 10:13:17 - [TEST_STEP][PASSED] - Login = waitForElementPresent(findTestObject("HomepageObjects/Login in homepage"), 5): Object 'Object Repository/HomepageObjects/Login in homepage' is present
+
+2019-01-25 10:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Login in homepage' is present
+
+2019-01-25 10:13:19 - [TEST_STEP][PASSED] - if (Login == true): null
+
+2019-01-25 10:13:19 - [TEST_STEP][PASSED] - println("Login  section is present on Homepage"): null
+
+2019-01-25 10:13:19 - [TEST_STEP][PASSED] - Threedotmenu = waitForElementPresent(findTestObject("HomepageObjects/Threedot menu on homepage"), 5): Object 'Object Repository/HomepageObjects/Threedot menu on homepage' is present
+
+2019-01-25 10:13:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Threedot menu on homepage' is present
+
+2019-01-25 10:13:21 - [TEST_STEP][PASSED] - if (Threedotmenu == true): null
+
+2019-01-25 10:13:21 - [TEST_STEP][PASSED] - println("Threedotmenu  section is present on Homepage"): null
+
+2019-01-25 10:13:21 - [TEST_STEP][PASSED] - premiumcontentscheck = verifyElementPresent(findTestObject("HomepageObjects/Premium contents on Homepage"), 1): Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-25 10:13:23 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-25 10:13:23 - [TEST_STEP][PASSED] - if (premiumcontentscheck == true): null
+
+2019-01-25 10:13:23 - [TEST_STEP][PASSED] - println("Premium contents are present on Homepage"): null
+
+2019-01-25 10:13:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HomepageObjects/ContentsPlay on Homepage"), 2): Scroll to object 'Object Repository/HomepageObjects/ContentsPlay on Homepage' successfully
+
+2019-01-25 10:13:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomepageObjects/ContentsPlay on Homepage' successfully
+
+2019-01-25 10:13:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-25 10:13:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-25 10:13:37 - [TEST_STEP][PASSED] - click(findTestObject("HomepageObjects/ContentsPlay on Homepage")): Object: 'Object Repository/HomepageObjects/ContentsPlay on Homepage' is clicked on
+
+2019-01-25 10:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HomepageObjects/ContentsPlay on Homepage' is clicked on
+
+2019-01-25 10:13:41 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-25 10:14:11 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-25 10:14:11 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-01-25 10:14:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:14:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback")): Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:14:20 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45): null
+
+2019-01-25 10:14:22 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:14:24 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:14:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:14:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:14:29 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:14:38 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:14:38 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-25 10:14:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:14:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-25 10:14:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-25 10:14:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:14:44 - [TEST_STEP][PASSED] - carousalcheck = verifyElementPresent(findTestObject("HomepageObjects/Carousal on Homepage"), 5): Object 'Object Repository/HomepageObjects/Carousal on Homepage' is present
+
+2019-01-25 10:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Carousal on Homepage' is present
+
+2019-01-25 10:14:46 - [TEST_STEP][PASSED] - if (carousalcheck == true): null
+
+2019-01-25 10:14:46 - [TEST_STEP][PASSED] - println("Carousal is present on Homepage"): null
+
+2019-01-25 10:14:46 - [TEST_STEP][PASSED] - aboutUs = getText(findTestObject("HomepageObjects/AboutUs on Homepage")): Text of object 'Object Repository/HomepageObjects/AboutUs on Homepage' is: 'About Us'
+
+2019-01-25 10:14:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/AboutUs on Homepage' is: 'About Us'
+
+2019-01-25 10:14:50 - [TEST_STEP][PASSED] - println(aboutUs): null
+
+2019-01-25 10:14:50 - [TEST_STEP][PASSED] - if (aboutUs.contentEquals("About Us")): null
+
+2019-01-25 10:14:50 - [TEST_STEP][PASSED] - println("About Us is present on Homepage footer"): null
+
+2019-01-25 10:14:50 - [TEST_STEP][PASSED] - contactUs = getText(findTestObject("HomepageObjects/Contact Us on Homepage")): Text of object 'Object Repository/HomepageObjects/Contact Us on Homepage' is: 'Contact Us'
+
+2019-01-25 10:14:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/Contact Us on Homepage' is: 'Contact Us'
+
+2019-01-25 10:14:55 - [TEST_STEP][PASSED] - println(contactUs): null
+
+2019-01-25 10:14:55 - [TEST_STEP][PASSED] - if (contactUs.contentEquals("Contact Us")): null
+
+2019-01-25 10:14:55 - [TEST_STEP][PASSED] - println("Contact Us is present on Homepage footer"): null
+
+2019-01-25 10:14:55 - [TEST_STEP][PASSED] - Help = getText(findTestObject("HomepageObjects/Help on Homepage")): Text of object 'Object Repository/HomepageObjects/Help on Homepage' is: 'Help'
+
+2019-01-25 10:14:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/Help on Homepage' is: 'Help'
+
+2019-01-25 10:14:59 - [TEST_STEP][PASSED] - println(Help): null
+
+2019-01-25 10:14:59 - [TEST_STEP][PASSED] - if (Help.contentEquals("Help")): null
+
+2019-01-25 10:14:59 - [TEST_STEP][PASSED] - println("Help is present on Homepage footer"): null
+
+2019-01-25 10:14:59 - [TEST_STEP][PASSED] - privacypolicy = getText(findTestObject("HomepageObjects/PrivacyPolicy on Homepage")): Text of object 'Object Repository/HomepageObjects/PrivacyPolicy on Homepage' is: 'Privacy Policy'
+
+2019-01-25 10:15:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/PrivacyPolicy on Homepage' is: 'Privacy Policy'
+
+2019-01-25 10:15:03 - [TEST_STEP][PASSED] - println(privacypolicy): null
+
+2019-01-25 10:15:03 - [TEST_STEP][PASSED] - if (privacypolicy.contentEquals("Privacy Policy")): null
+
+2019-01-25 10:15:03 - [TEST_STEP][PASSED] - println("PrivacyPolicy is present on Homepage footer"): null
+
+2019-01-25 10:15:03 - [TEST_STEP][PASSED] - termsofuse = getText(findTestObject("HomepageObjects/TermsOfuse on Homepage")): Text of object 'Object Repository/HomepageObjects/TermsOfuse on Homepage' is: 'Terms of Use'
+
+2019-01-25 10:15:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomepageObjects/TermsOfuse on Homepage' is: 'Terms of Use'
+
+2019-01-25 10:15:07 - [TEST_STEP][PASSED] - println(termsofuse): null
+
+2019-01-25 10:15:07 - [TEST_STEP][PASSED] - if (termsofuse.contentEquals("Terms of Use")): null
+
+2019-01-25 10:15:07 - [TEST_STEP][PASSED] - println("TermsOfuse is present on Homepage footer"): null
+
+2019-01-25 10:15:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-25 10:15:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-334-Originals" classname="Test Cases/Test Case Z5-334-Originals" status="PASSED">
+         <system-out><![CDATA[2019-01-25 10:15:13 - [TEST_CASE][PASSED] - Test Cases/Test Case Z5-334-Originals: Test Cases/Test Case Z5-334-Originals
+
+2019-01-25 10:15:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-25 10:15:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-25 10:15:14 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2019-01-25 10:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-25 10:15:22 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:15:34 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:15:34 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-25 10:15:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:15:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-25 10:15:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-25 10:15:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:15:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:15:41 - [TEST_STEP][PASSED] - zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:15:43 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:15:43 - [TEST_STEP][PASSED] - if (zee5 == true): null
+
+2019-01-25 10:15:43 - [TEST_STEP][PASSED] - println("Homepage Loaded successfully"): null
+
+2019-01-25 10:15:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:15:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:15:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:15:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:15:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/SelectLoginonHomepage")): Object: 'Object Repository/LoginpageObjects/SelectLoginonHomepage' is clicked on
+
+2019-01-25 10:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/SelectLoginonHomepage' is clicked on
+
+2019-01-25 10:15:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LoginpageObjects/EnterMobileNumber"), 10): Object 'Object Repository/LoginpageObjects/EnterMobileNumber' is present
+
+2019-01-25 10:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoginpageObjects/EnterMobileNumber' is present
+
+2019-01-25 10:15:59 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/EnterMobileNumber")): Object: 'Object Repository/LoginpageObjects/EnterMobileNumber' is clicked on
+
+2019-01-25 10:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/EnterMobileNumber' is clicked on
+
+2019-01-25 10:16:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("LoginpageObjects/EnterMobileNumber"), MobileNumber): Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/EnterMobileNumber'
+
+2019-01-25 10:16:08 - [MESSAGE][PASSED] - Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/EnterMobileNumber'
+
+2019-01-25 10:16:08 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/Enterpassword")): Object: 'Object Repository/LoginpageObjects/Enterpassword' is clicked on
+
+2019-01-25 10:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/Enterpassword' is clicked on
+
+2019-01-25 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("LoginpageObjects/Enterpassword"), Password): Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/Enterpassword'
+
+2019-01-25 10:16:16 - [MESSAGE][PASSED] - Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/Enterpassword'
+
+2019-01-25 10:16:16 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/ClickonLoginButton")): Object: 'Object Repository/LoginpageObjects/ClickonLoginButton' is clicked on
+
+2019-01-25 10:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/ClickonLoginButton' is clicked on
+
+2019-01-25 10:16:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LoginpageObjects/LoginValidation"), 10): Object 'Object Repository/LoginpageObjects/LoginValidation' is present
+
+2019-01-25 10:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoginpageObjects/LoginValidation' is present
+
+2019-01-25 10:16:27 - [TEST_STEP][PASSED] - click(findTestObject("LiveTvObjects/MoreoptionsonHomepage")): Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:16:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:16:34 - [MESSAGE][PASSED] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:16:34 - [TEST_STEP][PASSED] - click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage")): Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:16:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-25 10:16:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:16:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='orginalsLink']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-25 10:16:44 - [MESSAGE][WARNING] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:16:44 - [TEST_STEP][PASSED] - g = xpath("//img[@class="thumbnail-image"]"))[1].click(): null
+
+2019-01-25 10:16:48 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+2019-01-25 10:17:33 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2019-01-25 10:17:33 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback")): Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:17:39 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45): null
+
+2019-01-25 10:17:41 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:17:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:17:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:17:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:17:45 - [TEST_STEP][PASSED] - click(findTestObject("LiveTvObjects/MoreoptionsonHomepage")): Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:17:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:17:52 - [TEST_STEP][PASSED] - click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage")): Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:17:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:18:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='orginalsLink']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-25 10:18:01 - [MESSAGE][WARNING] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:18:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:18:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:18:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OriginalspageObjects/Selectanepisode"), 5): Object 'Object Repository/OriginalspageObjects/Selectanepisode' is present
+
+2019-01-25 10:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/OriginalspageObjects/Selectanepisode' is present
+
+2019-01-25 10:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OriginalspageObjects/Selectanepisode")): Object: 'Object Repository/OriginalspageObjects/Selectanepisode' is clicked on
+
+2019-01-25 10:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OriginalspageObjects/Selectanepisode' is clicked on
+
+2019-01-25 10:18:12 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+2019-01-25 10:18:57 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2019-01-25 10:18:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback")): Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:19:04 - [TEST_STEP][PASSED] - element1 = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45): null
+
+2019-01-25 10:19:06 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element1)): Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:19:08 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:19:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:19:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:19:10 - [TEST_STEP][PASSED] - obtainedList = new java.util.ArrayList(): null
+
+2019-01-25 10:19:10 - [TEST_STEP][PASSED] - mySelector = By.xpath("//div[@class="titleoneepisode ng-star-inserted"]"): null
+
+2019-01-25 10:19:10 - [TEST_STEP][PASSED] - elementList = driver.findElements(mySelector): null
+
+2019-01-25 10:19:12 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement we : elementList): null
+
+2019-01-25 10:19:12 - [TEST_STEP][PASSED] - comment(we.getText()): Episode 2 - The Boss
+
+2019-01-25 10:19:14 - [MESSAGE][INFO] - Episode 2 - The Boss
+
+2019-01-25 10:19:14 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:19:16 - [TEST_STEP][PASSED] - comment(we.getText()): Episode 3 - Valentine's Day
+
+2019-01-25 10:19:18 - [MESSAGE][INFO] - Episode 3 - Valentine's Day
+
+2019-01-25 10:19:18 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:19:20 - [TEST_STEP][PASSED] - comment(we.getText()): Episode 4 - The Party
+
+2019-01-25 10:19:22 - [MESSAGE][INFO] - Episode 4 - The Party
+
+2019-01-25 10:19:22 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:19:24 - [TEST_STEP][PASSED] - comment(we.getText()): Episode 5 - The Women
+
+2019-01-25 10:19:26 - [MESSAGE][INFO] - Episode 5 - The Women
+
+2019-01-25 10:19:26 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - sortedList = new java.util.ArrayList(): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - for (String s : obtainedList): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - Collections.sort(sortedList): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - Assert.assertTrue("titles are in ascending order", sortedList.equals(obtainedList)): null
+
+2019-01-25 10:19:28 - [TEST_STEP][PASSED] - click(findTestObject("LiveTvObjects/MoreoptionsonHomepage")): Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:19:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is present
+
+2019-01-25 10:19:34 - [TEST_STEP][PASSED] - click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage")): Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is clicked on
+
+2019-01-25 10:19:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5): Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:19:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='orginalsLink']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-25 10:19:44 - [MESSAGE][WARNING] - Object 'Object Repository/OriginalspageObjects/OriginlslinkonHomepage' is not present after 5 second(s)
+
+2019-01-25 10:19:44 - [TEST_STEP][PASSED] - a = xpath("//img[@class='thumbnail-image']")).size(): null
+
+2019-01-25 10:19:46 - [TEST_STEP][PASSED] - b = xpath("//div[@class='premium-button ng-star-inserted']")).size(): null
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - if (a == b): null
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - else: All originals contents are not premium
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - comment("All originals contents are not premium"): All originals contents are not premium
+
+2019-01-25 10:19:48 - [MESSAGE][INFO] - All originals contents are not premium
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - comment("Count of Thumbnails in Originals page are :" + a): Count of Thumbnails in Originals page are :100
+
+2019-01-25 10:19:48 - [MESSAGE][INFO] - Count of Thumbnails in Originals page are :100
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - if (a != 0): Thumbnails are present in Originals page
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - comment("Thumbnails are present in Originals page"): Thumbnails are present in Originals page
+
+2019-01-25 10:19:48 - [MESSAGE][INFO] - Thumbnails are present in Originals page
+
+2019-01-25 10:19:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-25 10:19:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-335-Shows" classname="Test Cases/Test Case Z5-335-Shows" status="PASSED">
+         <system-out><![CDATA[2019-01-25 10:19:54 - [TEST_CASE][PASSED] - Test Cases/Test Case Z5-335-Shows: Test Cases/Test Case Z5-335-Shows
+
+2019-01-25 10:19:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-25 10:19:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-25 10:19:55 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2019-01-25 10:20:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-25 10:20:02 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:20:14 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:20:14 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-25 10:20:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:20:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-25 10:20:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-25 10:20:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:20:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:20:22 - [TEST_STEP][PASSED] - zee5 = waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:20:24 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:20:24 - [TEST_STEP][PASSED] - if (zee5 == true): null
+
+2019-01-25 10:20:24 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-01-25 10:20:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:20:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:20:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:20:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:20:34 - [TEST_STEP][PASSED] - shows = waitForElementPresent(findTestObject("TVShowspageObjects/Shows on homepage"), 5): Object 'Object Repository/TVShowspageObjects/Shows on homepage' is present
+
+2019-01-25 10:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/TVShowspageObjects/Shows on homepage' is present
+
+2019-01-25 10:20:36 - [TEST_STEP][PASSED] - if (shows == true): null
+
+2019-01-25 10:20:36 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-01-25 10:20:36 - [TEST_STEP][PASSED] - println("Shows section is present on Homepage"): null
+
+2019-01-25 10:20:36 - [TEST_STEP][PASSED] - click(findTestObject("TVShowspageObjects/Shows on homepage")): Object: 'Object Repository/TVShowspageObjects/Shows on homepage' is clicked on
+
+2019-01-25 10:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TVShowspageObjects/Shows on homepage' is clicked on
+
+2019-01-25 10:20:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-25 10:20:40 - [TEST_STEP][PASSED] - i = driver.findElements(By.xpath("//span[@class="ng-star-inserted"]")): null
+
+2019-01-25 10:20:43 - [TEST_STEP][PASSED] - println("Click on view all of episodes"): null
+
+2019-01-25 10:20:43 - [TEST_STEP][PASSED] - get(1).click(): null
+
+2019-01-25 10:20:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 10): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:20:48 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-25 10:20:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-25 10:20:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TVShowspageObjects/Thumbnailchecks"), 5): Object 'Object Repository/TVShowspageObjects/Thumbnailchecks' is present
+
+2019-01-25 10:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/TVShowspageObjects/Thumbnailchecks' is present
+
+2019-01-25 10:21:00 - [TEST_STEP][PASSED] - println("Thumbnails are present"): null
+
+2019-01-25 10:21:00 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2019-01-25 10:21:12 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2019-01-25 10:21:12 - [TEST_STEP][PASSED] - g = xpath("//img[@class="thumbnail-image"]"))[1].click(): null
+
+2019-01-25 10:21:16 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+2019-01-25 10:22:01 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2019-01-25 10:22:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback")): Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TVShowspageObjects/Menubarwhilecontentplayback' is hovered
+
+2019-01-25 10:22:07 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay"), 45): null
+
+2019-01-25 10:22:10 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:22:12 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2019-01-25 10:22:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:22:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:22:14 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/TVShowspageObjects/TitleofPlayingcontent")): Text of object 'Object Repository/TVShowspageObjects/TitleofPlayingcontent' is: 'Kundali Bhagya - Episode 405 - January 24, 2019 - Full Episode'
+
+2019-01-25 10:22:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/TVShowspageObjects/TitleofPlayingcontent' is: 'Kundali Bhagya - Episode 405 - January 24, 2019 - Full Episode'
+
+2019-01-25 10:22:18 - [TEST_STEP][PASSED] - println(text): null
+
+2019-01-25 10:22:18 - [TEST_STEP][PASSED] - comment(text): Kundali Bhagya - Episode 405 - January 24, 2019 - Full Episode
+
+2019-01-25 10:22:18 - [MESSAGE][INFO] - Kundali Bhagya - Episode 405 - January 24, 2019 - Full Episode
+
+2019-01-25 10:22:18 - [TEST_STEP][PASSED] - obtainedList = new java.util.ArrayList(): null
+
+2019-01-25 10:22:18 - [TEST_STEP][PASSED] - mySelector = By.xpath("//div[@class="titleoneepisode ng-star-inserted"]"): null
+
+2019-01-25 10:22:18 - [TEST_STEP][PASSED] - elementList = driver.findElements(mySelector): null
+
+2019-01-25 10:22:20 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement we : elementList): null
+
+2019-01-25 10:22:20 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 404 - January 23, 2019 - Full Episode
+
+2019-01-25 10:22:22 - [MESSAGE][INFO] - Kundali Bhagya - Episode 404 - January 23, 2019 - Full Episode
+
+2019-01-25 10:22:22 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:24 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 403 - January 22, 2019 - Full Episode
+
+2019-01-25 10:22:26 - [MESSAGE][INFO] - Kundali Bhagya - Episode 403 - January 22, 2019 - Full Episode
+
+2019-01-25 10:22:26 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:28 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 402 - January 21, 2019 - Full Episode
+
+2019-01-25 10:22:30 - [MESSAGE][INFO] - Kundali Bhagya - Episode 402 - January 21, 2019 - Full Episode
+
+2019-01-25 10:22:30 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:32 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 401 - January 19, 2019 - Full Episode
+
+2019-01-25 10:22:34 - [MESSAGE][INFO] - Kundali Bhagya - Episode 401 - January 19, 2019 - Full Episode
+
+2019-01-25 10:22:34 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:36 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 400 - January 18, 2019 - Full Episode
+
+2019-01-25 10:22:38 - [MESSAGE][INFO] - Kundali Bhagya - Episode 400 - January 18, 2019 - Full Episode
+
+2019-01-25 10:22:38 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:40 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 399 - January 17, 2019 - Full Episode
+
+2019-01-25 10:22:42 - [MESSAGE][INFO] - Kundali Bhagya - Episode 399 - January 17, 2019 - Full Episode
+
+2019-01-25 10:22:42 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:44 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 398 - January 16, 2019 - Full Episode
+
+2019-01-25 10:22:46 - [MESSAGE][INFO] - Kundali Bhagya - Episode 398 - January 16, 2019 - Full Episode
+
+2019-01-25 10:22:46 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:48 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 397 - January 15, 2019 - Full Episode
+
+2019-01-25 10:22:50 - [MESSAGE][INFO] - Kundali Bhagya - Episode 397 - January 15, 2019 - Full Episode
+
+2019-01-25 10:22:50 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:52 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 396 - January 14, 2019 - Full Episode
+
+2019-01-25 10:22:54 - [MESSAGE][INFO] - Kundali Bhagya - Episode 396 - January 14, 2019 - Full Episode
+
+2019-01-25 10:22:54 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:22:56 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 395 - January 12, 2019 - Full Episode
+
+2019-01-25 10:22:58 - [MESSAGE][INFO] - Kundali Bhagya - Episode 395 - January 12, 2019 - Full Episode
+
+2019-01-25 10:22:58 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:00 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 394 - January 11, 2019 - Full Episode
+
+2019-01-25 10:23:02 - [MESSAGE][INFO] - Kundali Bhagya - Episode 394 - January 11, 2019 - Full Episode
+
+2019-01-25 10:23:02 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:04 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 393 - January 10, 2019 - Full Episode
+
+2019-01-25 10:23:07 - [MESSAGE][INFO] - Kundali Bhagya - Episode 393 - January 10, 2019 - Full Episode
+
+2019-01-25 10:23:07 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:09 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 392 - January 9, 2019 - Full Episode
+
+2019-01-25 10:23:11 - [MESSAGE][INFO] - Kundali Bhagya - Episode 392 - January 9, 2019 - Full Episode
+
+2019-01-25 10:23:11 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:13 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 391 - January 8, 2019 - Full Episode
+
+2019-01-25 10:23:15 - [MESSAGE][INFO] - Kundali Bhagya - Episode 391 - January 8, 2019 - Full Episode
+
+2019-01-25 10:23:15 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:17 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 390 - January 7, 2019 - Full Episode
+
+2019-01-25 10:23:19 - [MESSAGE][INFO] - Kundali Bhagya - Episode 390 - January 7, 2019 - Full Episode
+
+2019-01-25 10:23:19 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:21 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 389 - January 4, 2019 - Full Episode
+
+2019-01-25 10:23:23 - [MESSAGE][INFO] - Kundali Bhagya - Episode 389 - January 4, 2019 - Full Episode
+
+2019-01-25 10:23:23 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:25 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 388 - January 3, 2019 - Full Episode
+
+2019-01-25 10:23:27 - [MESSAGE][INFO] - Kundali Bhagya - Episode 388 - January 3, 2019 - Full Episode
+
+2019-01-25 10:23:27 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:29 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 387 - January 2, 2019 - Full Episode
+
+2019-01-25 10:23:31 - [MESSAGE][INFO] - Kundali Bhagya - Episode 387 - January 2, 2019 - Full Episode
+
+2019-01-25 10:23:31 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:33 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 386 - January 1, 2019 - Full Episode
+
+2019-01-25 10:23:35 - [MESSAGE][INFO] - Kundali Bhagya - Episode 386 - January 1, 2019 - Full Episode
+
+2019-01-25 10:23:35 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:37 - [TEST_STEP][PASSED] - comment(we.getText()): Kundali Bhagya - Episode 385 - December 31, 2018 - Full Episode
+
+2019-01-25 10:23:39 - [MESSAGE][INFO] - Kundali Bhagya - Episode 385 - December 31, 2018 - Full Episode
+
+2019-01-25 10:23:39 - [TEST_STEP][PASSED] - obtainedList.add(we.getText()): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList = new java.util.ArrayList(): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - for (String s : obtainedList): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - sortedList.add(s): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - Collections.sort(sortedList): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - Collections.reverse(sortedList): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - Assert.assertTrue("titles are in ascending order", sortedList.equals(obtainedList)): null
+
+2019-01-25 10:23:41 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:23:55 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:23:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TVShowspageObjects/Shows on homepage"), 10): Object 'Object Repository/TVShowspageObjects/Shows on homepage' is present
+
+2019-01-25 10:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/TVShowspageObjects/Shows on homepage' is present
+
+2019-01-25 10:23:57 - [TEST_STEP][PASSED] - premiumcontentscheck = verifyElementPresent(findTestObject("HomepageObjects/Premium contents on Homepage"), 1): Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-25 10:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Premium contents on Homepage' is present
+
+2019-01-25 10:23:59 - [TEST_STEP][PASSED] - if (premiumcontentscheck == true): null
+
+2019-01-25 10:23:59 - [TEST_STEP][PASSED] - println("Premium contents are present on Homepage"): null
+
+2019-01-25 10:23:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-25 10:24:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Z5-336-Live Tv" classname="Test Cases/Test Case Z5-336-Live Tv" status="ERROR">
+         <error type="ERROR" message="Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-25 10:24:06 - [TEST_CASE][ERROR] - Test Cases/Test Case Z5-336-Live Tv: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)
+
+
+2019-01-25 10:24:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-25 10:24:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-25 10:24:07 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2019-01-25 10:24:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-25 10:24:15 - [TEST_STEP][PASSED] - navigateToUrl(appurl): Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:24:27 - [MESSAGE][PASSED] - Navigate to 'https://www.zee5.com/' successfully
+
+2019-01-25 10:24:27 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-01-25 10:24:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-25 10:24:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-25 10:24:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-25 10:24:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-25 10:24:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-25 10:24:35 - [TEST_STEP][PASSED] - zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 0): Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-25 10:24:37 - [MESSAGE][PASSED] - Object 'Object Repository/HomepageObjects/Zee5 image check' is present
+
+2019-01-25 10:24:37 - [TEST_STEP][PASSED] - if (zee5 == true): null
+
+2019-01-25 10:24:37 - [TEST_STEP][PASSED] - println("Homepage Loaded successfully"): null
+
+2019-01-25 10:24:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-25 10:24:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-25 10:24:42 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/SelectLoginonHomepage")): Object: 'Object Repository/LoginpageObjects/SelectLoginonHomepage' is clicked on
+
+2019-01-25 10:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/SelectLoginonHomepage' is clicked on
+
+2019-01-25 10:24:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LoginpageObjects/EnterMobileNumber"), 10): Object 'Object Repository/LoginpageObjects/EnterMobileNumber' is present
+
+2019-01-25 10:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoginpageObjects/EnterMobileNumber' is present
+
+2019-01-25 10:24:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/EnterMobileNumber")): Object: 'Object Repository/LoginpageObjects/EnterMobileNumber' is clicked on
+
+2019-01-25 10:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/EnterMobileNumber' is clicked on
+
+2019-01-25 10:25:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("LoginpageObjects/EnterMobileNumber"), MobileNumber): Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/EnterMobileNumber'
+
+2019-01-25 10:25:07 - [MESSAGE][PASSED] - Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/EnterMobileNumber'
+
+2019-01-25 10:25:07 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/Enterpassword")): Object: 'Object Repository/LoginpageObjects/Enterpassword' is clicked on
+
+2019-01-25 10:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/Enterpassword' is clicked on
+
+2019-01-25 10:25:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("LoginpageObjects/Enterpassword"), Password): Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/Enterpassword'
+
+2019-01-25 10:25:22 - [MESSAGE][PASSED] - Keys '9704124134' sent to object: 'Object Repository/LoginpageObjects/Enterpassword'
+
+2019-01-25 10:25:22 - [TEST_STEP][PASSED] - click(findTestObject("LoginpageObjects/ClickonLoginButton")): Object: 'Object Repository/LoginpageObjects/ClickonLoginButton' is clicked on
+
+2019-01-25 10:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginpageObjects/ClickonLoginButton' is clicked on
+
+2019-01-25 10:25:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LoginpageObjects/LoginValidation"), 10): Object 'Object Repository/LoginpageObjects/LoginValidation' is present
+
+2019-01-25 10:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoginpageObjects/LoginValidation' is present
+
+2019-01-25 10:25:53 - [TEST_STEP][PASSED] - click(findTestObject("LiveTvObjects/MoreoptionsonHomepage")): Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LiveTvObjects/MoreoptionsonHomepage' is clicked on
+
+2019-01-25 10:26:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LiveTvObjects/ChooseLiveTvfromHomepage"), 1): Object 'Object Repository/LiveTvObjects/ChooseLiveTvfromHomepage' is present
+
+2019-01-25 10:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/LiveTvObjects/ChooseLiveTvfromHomepage' is present
+
+2019-01-25 10:26:04 - [TEST_STEP][PASSED] - click(findTestObject("LiveTvObjects/ChooseLiveTvfromHomepage")): Object: 'Object Repository/LiveTvObjects/ChooseLiveTvfromHomepage' is clicked on
+
+2019-01-25 10:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LiveTvObjects/ChooseLiveTvfromHomepage' is clicked on
+
+2019-01-25 10:26:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LiveTvObjects/WaitForpageloadonLivepage"), 5): Object 'Object Repository/LiveTvObjects/WaitForpageloadonLivepage' is present
+
+2019-01-25 10:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/LiveTvObjects/WaitForpageloadonLivepage' is present
+
+2019-01-25 10:26:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-25 10:26:16 - [TEST_STEP][PASSED] - g = driver.findElements(By.xpath("//div[@class="home-grid-container ng-star-inserted"]")): null
+
+2019-01-25 10:26:18 - [TEST_STEP][ERROR] - get(1).click(): get(1).click() FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)
+
+
+2019-01-25 10:26:18 - [MESSAGE][ERROR] - get(1).click() FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-25 10:24:06 - [TEST_CASE][ERROR] - Test Cases/Test Case Z5-336-Live Tv: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-25 10:12:09 - [TEST_SUITE][ERROR] - Zee5TestSuite: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-25 10:12:09 - [TEST_SUITE][ERROR] - Zee5TestSuite: Test Cases/Test Case Z5-336-Live Tv FAILED.
+Reason:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java_util_List$get$2.call(Unknown Source)
+	at Test Case Z5-336-Live Tv.run(Test Case Z5-336-Live Tv:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548391326708.run(TempTestSuite1548391326708.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

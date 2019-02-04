@@ -1,0 +1,104 @@
+1
+00:00:00,779 --> 00:00:00,779
+1. openBrowser("")
+
+2
+00:00:08,435 --> 00:00:08,437
+5. navigateToUrl(appurl)
+
+3
+00:00:21,078 --> 00:00:21,079
+9. waitForPageLoad(2)
+
+4
+00:00:23,103 --> 00:00:23,105
+13. maximizeWindow()
+
+5
+00:00:26,415 --> 00:00:26,416
+17. delay(2)
+
+6
+00:00:28,420 --> 00:00:28,421
+21. zee5 = verifyElementPresent(findTestObject("HomepageObjects/Zee5 image check"), 5)
+
+7
+00:00:30,473 --> 00:00:30,475
+25. if (zee5 == true)
+
+8
+00:00:30,480 --> 00:00:30,480
+1. println("Homepage Loaded successfully")
+
+9
+00:00:30,482 --> 00:00:30,485
+29. delay(5)
+
+10
+00:00:35,488 --> 00:00:35,490
+33. delay(5)
+
+11
+00:00:40,494 --> 00:00:40,496
+37. click(findTestObject("LoginpageObjects/SelectLoginonHomepage"))
+
+12
+00:00:45,019 --> 00:00:45,020
+41. waitForElementPresent(findTestObject("LoginpageObjects/EnterMobileNumber"), 10)
+
+13
+00:00:47,071 --> 00:00:47,072
+45. click(findTestObject("LoginpageObjects/EnterMobileNumber"))
+
+14
+00:00:51,779 --> 00:00:51,780
+49. sendKeys(findTestObject("LoginpageObjects/EnterMobileNumber"), MobileNumber)
+
+15
+00:00:56,662 --> 00:00:56,663
+53. click(findTestObject("LoginpageObjects/Enterpassword"))
+
+16
+00:01:00,851 --> 00:01:00,853
+57. sendKeys(findTestObject("LoginpageObjects/Enterpassword"), Password)
+
+17
+00:01:05,136 --> 00:01:05,139
+61. click(findTestObject("LoginpageObjects/ClickonLoginButton"))
+
+18
+00:01:09,326 --> 00:01:09,328
+65. waitForElementPresent(findTestObject("LoginpageObjects/LoginValidation"), 10)
+
+19
+00:01:20,540 --> 00:01:20,541
+69. click(findTestObject("LiveTvObjects/MoreoptionsonHomepage"))
+
+20
+00:01:24,954 --> 00:01:24,955
+73. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 3)
+
+21
+00:01:27,002 --> 00:01:27,003
+77. click(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"))
+
+22
+00:01:31,185 --> 00:01:31,186
+81. driver = getWebDriver()
+
+23
+00:01:31,192 --> 00:01:31,193
+85. waitForElementPresent(findTestObject("OriginalspageObjects/OriginlslinkonHomepage"), 5)
+
+24
+00:01:37,968 --> 00:01:37,972
+89. g = xpath("//img[@class="thumbnail-image"]"))[1].click()
+
+25
+00:01:42,455 --> 00:01:42,457
+93. delay(45)
+
+26
+00:02:27,460 --> 00:02:27,462
+97. mouseOver(findTestObject("TVShowspageObjects/Menubarwhilecontentplayback"))
+

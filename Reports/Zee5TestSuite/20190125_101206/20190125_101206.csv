@@ -1,0 +1,201 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Zee5TestSuite,Chrome 71.0.3578.98,,2019-01-25 10:12:09,2019-01-25 10:26:24,14m - 14.259s,ERROR
+,,,,,,
+Test Cases/Test Case Z5-333-Home Page,Chrome 71.0.3578.98,HomepageLoad after navigating to url,2019-01-25 10:12:10,2019-01-25 10:15:13,3m - 3.234s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-25 10:12:11,2019-01-25 10:12:22,10.774s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:12:22,2019-01-25 10:12:35,13.440s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-01-25 10:12:35,2019-01-25 10:12:37,2.128s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-25 10:12:37,2019-01-25 10:12:41,3.421s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:12:41,2019-01-25 10:12:43,2.093s,PASSED
+"zee5 = verifyElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:12:43,2019-01-25 10:12:45,2.116s,PASSED
+if (zee5 == true),Chrome 71.0.3578.98,,2019-01-25 10:12:45,2019-01-25 10:12:45,0.011s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:12:45,2019-01-25 10:12:50,5.003s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:12:50,2019-01-25 10:12:55,5.008s,PASSED
+"premium = waitForElementPresent(findTestObject(""HomepageObjects/Premium on homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:12:55,2019-01-25 10:12:57,2.091s,PASSED
+if (premium == true),Chrome 71.0.3578.98,,2019-01-25 10:12:57,2019-01-25 10:12:57,0.007s,PASSED
+"shows = waitForElementPresent(findTestObject(""HomepageObjects/Shows on homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:12:57,2019-01-25 10:12:59,2.055s,PASSED
+if (shows == true),Chrome 71.0.3578.98,,2019-01-25 10:12:59,2019-01-25 10:12:59,0.009s,PASSED
+"movies = waitForElementPresent(findTestObject(""HomepageObjects/Movies on homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:12:59,2019-01-25 10:13:01,2.126s,PASSED
+if (movies == true),Chrome 71.0.3578.98,,2019-01-25 10:13:01,2019-01-25 10:13:01,0.000s,PASSED
+"news = waitForElementPresent(findTestObject(""HomepageObjects/News on homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:13:01,2019-01-25 10:13:03,2.050s,PASSED
+if (news == true),Chrome 71.0.3578.98,,2019-01-25 10:13:03,2019-01-25 10:13:03,0.005s,PASSED
+"videos = waitForElementPresent(findTestObject(""HomepageObjects/Videos on homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:13:03,2019-01-25 10:13:06,2.051s,PASSED
+if (videos == true),Chrome 71.0.3578.98,,2019-01-25 10:13:06,2019-01-25 10:13:06,0.004s,PASSED
+"livetv = waitForElementPresent(findTestObject(""HomepageObjects/LiveTv on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:06,2019-01-25 10:13:11,5.082s,PASSED
+if (livetv == true),Chrome 71.0.3578.98,,2019-01-25 10:13:11,2019-01-25 10:13:11,0.003s,PASSED
+else,Chrome 71.0.3578.98,,2019-01-25 10:13:11,2019-01-25 10:13:11,0.004s,PASSED
+"TvGuide = waitForElementPresent(findTestObject(""HomepageObjects/TvGuide on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:11,2019-01-25 10:13:13,2.076s,PASSED
+if (TvGuide == true),Chrome 71.0.3578.98,,2019-01-25 10:13:13,2019-01-25 10:13:13,0.000s,PASSED
+"Languageicon = waitForElementPresent(findTestObject(""HomepageObjects/Language icon on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:13,2019-01-25 10:13:15,2.094s,PASSED
+if (Languageicon == true),Chrome 71.0.3578.98,,2019-01-25 10:13:15,2019-01-25 10:13:15,0.005s,PASSED
+"Searchicon = waitForElementPresent(findTestObject(""HomepageObjects/Search Icon on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:15,2019-01-25 10:13:17,2.067s,PASSED
+if (Searchicon == true),Chrome 71.0.3578.98,,2019-01-25 10:13:17,2019-01-25 10:13:17,0.005s,PASSED
+"Login = waitForElementPresent(findTestObject(""HomepageObjects/Login in homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:17,2019-01-25 10:13:19,2.049s,PASSED
+if (Login == true),Chrome 71.0.3578.98,,2019-01-25 10:13:19,2019-01-25 10:13:19,0.006s,PASSED
+"Threedotmenu = waitForElementPresent(findTestObject(""HomepageObjects/Threedot menu on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:13:19,2019-01-25 10:13:21,2.043s,PASSED
+if (Threedotmenu == true),Chrome 71.0.3578.98,,2019-01-25 10:13:21,2019-01-25 10:13:21,0.006s,PASSED
+"premiumcontentscheck = verifyElementPresent(findTestObject(""HomepageObjects/Premium contents on Homepage""), 1)",Chrome 71.0.3578.98,,2019-01-25 10:13:21,2019-01-25 10:13:23,2.068s,PASSED
+if (premiumcontentscheck == true),Chrome 71.0.3578.98,,2019-01-25 10:13:23,2019-01-25 10:13:23,0.006s,PASSED
+"scrollToElement(findTestObject(""HomepageObjects/ContentsPlay on Homepage""), 2)",Chrome 71.0.3578.98,,2019-01-25 10:13:23,2019-01-25 10:13:27,4.153s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-25 10:13:27,2019-01-25 10:13:37,10.005s,PASSED
+"click(findTestObject(""HomepageObjects/ContentsPlay on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:13:37,2019-01-25 10:13:41,4.295s,PASSED
+delay(30),Chrome 71.0.3578.98,,2019-01-25 10:13:41,2019-01-25 10:14:11,30.004s,PASSED
+waitForPageLoad(20),Chrome 71.0.3578.98,,2019-01-25 10:14:11,2019-01-25 10:14:14,2.044s,PASSED
+"mouseOver(findTestObject(""TVShowspageObjects/Menubarwhilecontentplayback""))",Chrome 71.0.3578.98,,2019-01-25 10:14:14,2019-01-25 10:14:20,6.178s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay""), 45)",Chrome 71.0.3578.98,,2019-01-25 10:14:20,2019-01-25 10:14:22,2.396s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 71.0.3578.98,,2019-01-25 10:14:22,2019-01-25 10:14:24,2.085s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:14:24,2019-01-25 10:14:29,5.005s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:14:29,2019-01-25 10:14:38,8.982s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-25 10:14:38,2019-01-25 10:14:40,2.015s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-25 10:14:40,2019-01-25 10:14:42,2.015s,PASSED
+"waitForElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:14:42,2019-01-25 10:14:44,2.052s,PASSED
+"carousalcheck = verifyElementPresent(findTestObject(""HomepageObjects/Carousal on Homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:14:44,2019-01-25 10:14:46,2.041s,PASSED
+if (carousalcheck == true),Chrome 71.0.3578.98,,2019-01-25 10:14:46,2019-01-25 10:14:46,0.000s,PASSED
+"aboutUs = getText(findTestObject(""HomepageObjects/AboutUs on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:14:46,2019-01-25 10:14:50,4.101s,PASSED
+println(aboutUs),Chrome 71.0.3578.98,,2019-01-25 10:14:50,2019-01-25 10:14:50,0.003s,PASSED
+"if (aboutUs.contentEquals(""About Us""))",Chrome 71.0.3578.98,,2019-01-25 10:14:50,2019-01-25 10:14:50,0.008s,PASSED
+"contactUs = getText(findTestObject(""HomepageObjects/Contact Us on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:14:50,2019-01-25 10:14:55,4.081s,PASSED
+println(contactUs),Chrome 71.0.3578.98,,2019-01-25 10:14:55,2019-01-25 10:14:55,0.003s,PASSED
+"if (contactUs.contentEquals(""Contact Us""))",Chrome 71.0.3578.98,,2019-01-25 10:14:55,2019-01-25 10:14:55,0.000s,PASSED
+"Help = getText(findTestObject(""HomepageObjects/Help on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:14:55,2019-01-25 10:14:59,4.082s,PASSED
+println(Help),Chrome 71.0.3578.98,,2019-01-25 10:14:59,2019-01-25 10:14:59,0.004s,PASSED
+"if (Help.contentEquals(""Help""))",Chrome 71.0.3578.98,,2019-01-25 10:14:59,2019-01-25 10:14:59,0.005s,PASSED
+"privacypolicy = getText(findTestObject(""HomepageObjects/PrivacyPolicy on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:14:59,2019-01-25 10:15:03,4.072s,PASSED
+println(privacypolicy),Chrome 71.0.3578.98,,2019-01-25 10:15:03,2019-01-25 10:15:03,0.000s,PASSED
+"if (privacypolicy.contentEquals(""Privacy Policy""))",Chrome 71.0.3578.98,,2019-01-25 10:15:03,2019-01-25 10:15:03,0.008s,PASSED
+"termsofuse = getText(findTestObject(""HomepageObjects/TermsOfuse on Homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:15:03,2019-01-25 10:15:07,4.076s,PASSED
+println(termsofuse),Chrome 71.0.3578.98,,2019-01-25 10:15:07,2019-01-25 10:15:07,0.000s,PASSED
+"if (termsofuse.contentEquals(""Terms of Use""))",Chrome 71.0.3578.98,,2019-01-25 10:15:07,2019-01-25 10:15:07,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-25 10:15:07,2019-01-25 10:15:11,3.893s,PASSED
+,,,,,,
+Test Cases/Test Case Z5-334-Originals,Chrome 71.0.3578.98,,2019-01-25 10:15:13,2019-01-25 10:19:54,4m - 40.809s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-25 10:15:14,2019-01-25 10:15:22,7.444s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:15:22,2019-01-25 10:15:34,11.970s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-01-25 10:15:34,2019-01-25 10:15:36,2.023s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-25 10:15:36,2019-01-25 10:15:39,3.230s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:15:39,2019-01-25 10:15:41,2.003s,PASSED
+"zee5 = verifyElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:15:41,2019-01-25 10:15:43,2.046s,PASSED
+if (zee5 == true),Chrome 71.0.3578.98,,2019-01-25 10:15:43,2019-01-25 10:15:43,0.001s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:15:43,2019-01-25 10:15:48,5.001s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:15:48,2019-01-25 10:15:53,5.005s,PASSED
+"click(findTestObject(""LoginpageObjects/SelectLoginonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:15:53,2019-01-25 10:15:57,4.377s,PASSED
+"waitForElementPresent(findTestObject(""LoginpageObjects/EnterMobileNumber""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:15:57,2019-01-25 10:15:59,2.050s,PASSED
+"click(findTestObject(""LoginpageObjects/EnterMobileNumber""))",Chrome 71.0.3578.98,,2019-01-25 10:15:59,2019-01-25 10:16:04,4.231s,PASSED
+"sendKeys(findTestObject(""LoginpageObjects/EnterMobileNumber""), MobileNumber)",Chrome 71.0.3578.98,,2019-01-25 10:16:04,2019-01-25 10:16:08,4.372s,PASSED
+"click(findTestObject(""LoginpageObjects/Enterpassword""))",Chrome 71.0.3578.98,,2019-01-25 10:16:08,2019-01-25 10:16:12,4.153s,PASSED
+"sendKeys(findTestObject(""LoginpageObjects/Enterpassword""), Password)",Chrome 71.0.3578.98,,2019-01-25 10:16:12,2019-01-25 10:16:16,4.301s,PASSED
+"click(findTestObject(""LoginpageObjects/ClickonLoginButton""))",Chrome 71.0.3578.98,,2019-01-25 10:16:16,2019-01-25 10:16:21,4.226s,PASSED
+"waitForElementPresent(findTestObject(""LoginpageObjects/LoginValidation""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:16:21,2019-01-25 10:16:27,6.560s,PASSED
+"click(findTestObject(""LiveTvObjects/MoreoptionsonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:16:27,2019-01-25 10:16:32,5.249s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 3)",Chrome 71.0.3578.98,,2019-01-25 10:16:32,2019-01-25 10:16:34,2.058s,PASSED
+"click(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:16:34,2019-01-25 10:16:39,4.117s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-25 10:16:39,2019-01-25 10:16:39,0.004s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:16:39,2019-01-25 10:16:44,5.236s,PASSED
+"g = xpath(""//img[@class=""thumbnail-image""]""))[1].click()",Chrome 71.0.3578.98,,2019-01-25 10:16:44,2019-01-25 10:16:48,4.409s,PASSED
+delay(45),Chrome 71.0.3578.98,,2019-01-25 10:16:48,2019-01-25 10:17:33,45.006s,PASSED
+"mouseOver(findTestObject(""TVShowspageObjects/Menubarwhilecontentplayback""))",Chrome 71.0.3578.98,,2019-01-25 10:17:33,2019-01-25 10:17:39,6.147s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay""), 45)",Chrome 71.0.3578.98,,2019-01-25 10:17:39,2019-01-25 10:17:41,2.042s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 71.0.3578.98,,2019-01-25 10:17:41,2019-01-25 10:17:43,2.053s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:17:43,2019-01-25 10:17:45,2.004s,PASSED
+"click(findTestObject(""LiveTvObjects/MoreoptionsonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:17:45,2019-01-25 10:17:50,4.110s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 3)",Chrome 71.0.3578.98,,2019-01-25 10:17:50,2019-01-25 10:17:52,2.032s,PASSED
+"click(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:17:52,2019-01-25 10:17:56,4.262s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:17:56,2019-01-25 10:18:01,5.087s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:18:01,2019-01-25 10:18:06,5.013s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/OriginalspageObjects/Selectanepisode""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:18:06,2019-01-25 10:18:08,2.168s,PASSED
+"click(findTestObject(""Object Repository/OriginalspageObjects/Selectanepisode""))",Chrome 71.0.3578.98,,2019-01-25 10:18:08,2019-01-25 10:18:12,4.293s,PASSED
+delay(45),Chrome 71.0.3578.98,,2019-01-25 10:18:12,2019-01-25 10:18:57,45.005s,PASSED
+"mouseOver(findTestObject(""TVShowspageObjects/Menubarwhilecontentplayback""))",Chrome 71.0.3578.98,,2019-01-25 10:18:57,2019-01-25 10:19:04,6.218s,PASSED
+"element1 = findWebElement(findTestObject(""Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay""), 45)",Chrome 71.0.3578.98,,2019-01-25 10:19:04,2019-01-25 10:19:06,2.069s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element1))",Chrome 71.0.3578.98,,2019-01-25 10:19:06,2019-01-25 10:19:08,2.050s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:19:08,2019-01-25 10:19:10,2.005s,PASSED
+obtainedList = new java.util.ArrayList(),Chrome 71.0.3578.98,,2019-01-25 10:19:10,2019-01-25 10:19:10,0.002s,PASSED
+"mySelector = By.xpath(""//div[@class=""titleoneepisode ng-star-inserted""]"")",Chrome 71.0.3578.98,,2019-01-25 10:19:10,2019-01-25 10:19:10,0.000s,PASSED
+elementList = driver.findElements(mySelector),Chrome 71.0.3578.98,,2019-01-25 10:19:10,2019-01-25 10:19:12,2.030s,PASSED
+for (org.openqa.selenium.WebElement we : elementList),Chrome 71.0.3578.98,,2019-01-25 10:19:12,2019-01-25 10:19:28,16.278s,PASSED
+sortedList = new java.util.ArrayList(),Chrome 71.0.3578.98,,2019-01-25 10:19:28,2019-01-25 10:19:28,0.030s,PASSED
+for (String s : obtainedList),Chrome 71.0.3578.98,,2019-01-25 10:19:28,2019-01-25 10:19:28,0.012s,PASSED
+Collections.sort(sortedList),Chrome 71.0.3578.98,,2019-01-25 10:19:28,2019-01-25 10:19:28,0.016s,PASSED
+"Assert.assertTrue(""titles are in ascending order"", sortedList.equals(obtainedList))",Chrome 71.0.3578.98,,2019-01-25 10:19:28,2019-01-25 10:19:28,0.027s,PASSED
+"click(findTestObject(""LiveTvObjects/MoreoptionsonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:19:28,2019-01-25 10:19:32,4.193s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 3)",Chrome 71.0.3578.98,,2019-01-25 10:19:32,2019-01-25 10:19:34,2.044s,PASSED
+"click(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:19:34,2019-01-25 10:19:39,4.212s,PASSED
+"waitForElementPresent(findTestObject(""OriginalspageObjects/OriginlslinkonHomepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:19:39,2019-01-25 10:19:44,5.200s,PASSED
+"a = xpath(""//img[@class='thumbnail-image']"")).size()",Chrome 71.0.3578.98,,2019-01-25 10:19:44,2019-01-25 10:19:46,2.130s,PASSED
+"b = xpath(""//div[@class='premium-button ng-star-inserted']"")).size()",Chrome 71.0.3578.98,,2019-01-25 10:19:46,2019-01-25 10:19:48,2.057s,PASSED
+if (a == b),Chrome 71.0.3578.98,,2019-01-25 10:19:48,2019-01-25 10:19:48,0.035s,PASSED
+else,Chrome 71.0.3578.98,,2019-01-25 10:19:48,2019-01-25 10:19:48,0.005s,PASSED
+"comment(""Count of Thumbnails in Originals page are :"" + a)",Chrome 71.0.3578.98,,2019-01-25 10:19:48,2019-01-25 10:19:48,0.005s,PASSED
+if (a != 0),Chrome 71.0.3578.98,,2019-01-25 10:19:48,2019-01-25 10:19:48,0.007s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-25 10:19:48,2019-01-25 10:19:51,3.327s,PASSED
+,,,,,,
+Test Cases/Test Case Z5-335-Shows,Chrome 71.0.3578.98,HomepageLoad after navigating to url,2019-01-25 10:19:54,2019-01-25 10:24:06,4m - 12.047s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-25 10:19:55,2019-01-25 10:20:02,7.133s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:20:02,2019-01-25 10:20:14,12.418s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-01-25 10:20:14,2019-01-25 10:20:16,2.030s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-25 10:20:16,2019-01-25 10:20:20,3.283s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:20:20,2019-01-25 10:20:22,2.004s,PASSED
+"zee5 = waitForElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:20:22,2019-01-25 10:20:24,2.048s,PASSED
+if (zee5 == true),Chrome 71.0.3578.98,,2019-01-25 10:20:24,2019-01-25 10:20:24,0.007s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:20:24,2019-01-25 10:20:29,5.005s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:20:29,2019-01-25 10:20:34,5.004s,PASSED
+"shows = waitForElementPresent(findTestObject(""TVShowspageObjects/Shows on homepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:20:34,2019-01-25 10:20:36,2.066s,PASSED
+if (shows == true),Chrome 71.0.3578.98,,2019-01-25 10:20:36,2019-01-25 10:20:36,0.003s,PASSED
+"click(findTestObject(""TVShowspageObjects/Shows on homepage""))",Chrome 71.0.3578.98,,2019-01-25 10:20:36,2019-01-25 10:20:40,4.146s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-25 10:20:40,2019-01-25 10:20:40,0.003s,PASSED
+"i = driver.findElements(By.xpath(""//span[@class=""ng-star-inserted""]""))",Chrome 71.0.3578.98,,2019-01-25 10:20:40,2019-01-25 10:20:43,3.296s,PASSED
+"println(""Click on view all of episodes"")",Chrome 71.0.3578.98,,2019-01-25 10:20:43,2019-01-25 10:20:43,0.002s,PASSED
+get(1).click(),Chrome 71.0.3578.98,,2019-01-25 10:20:43,2019-01-25 10:20:46,2.844s,PASSED
+"waitForElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:20:46,2019-01-25 10:20:48,2.026s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-25 10:20:48,2019-01-25 10:20:58,10.006s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TVShowspageObjects/Thumbnailchecks""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:20:58,2019-01-25 10:21:00,2.042s,PASSED
+"println(""Thumbnails are present"")",Chrome 71.0.3578.98,,2019-01-25 10:21:00,2019-01-25 10:21:00,0.002s,PASSED
+delay(12),Chrome 71.0.3578.98,,2019-01-25 10:21:00,2019-01-25 10:21:12,12.008s,PASSED
+"g = xpath(""//img[@class=""thumbnail-image""]""))[1].click()",Chrome 71.0.3578.98,,2019-01-25 10:21:12,2019-01-25 10:21:16,4.143s,PASSED
+delay(45),Chrome 71.0.3578.98,,2019-01-25 10:21:16,2019-01-25 10:22:01,45.006s,PASSED
+"mouseOver(findTestObject(""TVShowspageObjects/Menubarwhilecontentplayback""))",Chrome 71.0.3578.98,,2019-01-25 10:22:01,2019-01-25 10:22:07,6.146s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/TVShowspageObjects/Pausebuttonwhilecontentplay""), 45)",Chrome 71.0.3578.98,,2019-01-25 10:22:07,2019-01-25 10:22:10,2.153s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 71.0.3578.98,,2019-01-25 10:22:10,2019-01-25 10:22:12,2.062s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:22:12,2019-01-25 10:22:14,2.003s,PASSED
+"text = getText(findTestObject(""Object Repository/TVShowspageObjects/TitleofPlayingcontent""))",Chrome 71.0.3578.98,,2019-01-25 10:22:14,2019-01-25 10:22:18,4.072s,PASSED
+println(text),Chrome 71.0.3578.98,,2019-01-25 10:22:18,2019-01-25 10:22:18,0.002s,PASSED
+comment(text),Chrome 71.0.3578.98,,2019-01-25 10:22:18,2019-01-25 10:22:18,0.003s,PASSED
+obtainedList = new java.util.ArrayList(),Chrome 71.0.3578.98,,2019-01-25 10:22:18,2019-01-25 10:22:18,0.002s,PASSED
+"mySelector = By.xpath(""//div[@class=""titleoneepisode ng-star-inserted""]"")",Chrome 71.0.3578.98,,2019-01-25 10:22:18,2019-01-25 10:22:18,0.002s,PASSED
+elementList = driver.findElements(mySelector),Chrome 71.0.3578.98,,2019-01-25 10:22:18,2019-01-25 10:22:20,2.022s,PASSED
+for (org.openqa.selenium.WebElement we : elementList),Chrome 71.0.3578.98,,2019-01-25 10:22:20,2019-01-25 10:23:41,1m - 21.682s,PASSED
+sortedList = new java.util.ArrayList(),Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:41,0.000s,PASSED
+for (String s : obtainedList),Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:41,0.064s,PASSED
+Collections.sort(sortedList),Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:41,0.016s,PASSED
+Collections.reverse(sortedList),Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:41,0.000s,PASSED
+"Assert.assertTrue(""titles are in ascending order"", sortedList.equals(obtainedList))",Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:41,0.016s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:23:41,2019-01-25 10:23:55,13.608s,PASSED
+"waitForElementPresent(findTestObject(""TVShowspageObjects/Shows on homepage""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:23:55,2019-01-25 10:23:57,2.045s,PASSED
+"premiumcontentscheck = verifyElementPresent(findTestObject(""HomepageObjects/Premium contents on Homepage""), 1)",Chrome 71.0.3578.98,,2019-01-25 10:23:57,2019-01-25 10:23:59,2.038s,PASSED
+if (premiumcontentscheck == true),Chrome 71.0.3578.98,,2019-01-25 10:23:59,2019-01-25 10:23:59,0.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-25 10:23:59,2019-01-25 10:24:03,4.311s,PASSED
+,,,,,,
+Test Cases/Test Case Z5-336-Live Tv,Chrome 71.0.3578.98,,2019-01-25 10:24:06,2019-01-25 10:26:21,2m - 14.688s,ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-25 10:24:07,2019-01-25 10:24:15,7.874s,PASSED
+navigateToUrl(appurl),Chrome 71.0.3578.98,,2019-01-25 10:24:15,2019-01-25 10:24:27,12.765s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-01-25 10:24:27,2019-01-25 10:24:29,2.018s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-25 10:24:29,2019-01-25 10:24:33,3.396s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-25 10:24:33,2019-01-25 10:24:35,2.006s,PASSED
+"zee5 = verifyElementPresent(findTestObject(""HomepageObjects/Zee5 image check""), 0)",Chrome 71.0.3578.98,,2019-01-25 10:24:35,2019-01-25 10:24:37,2.056s,PASSED
+if (zee5 == true),Chrome 71.0.3578.98,,2019-01-25 10:24:37,2019-01-25 10:24:37,0.002s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-25 10:24:37,2019-01-25 10:24:42,5.001s,PASSED
+"click(findTestObject(""LoginpageObjects/SelectLoginonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:24:42,2019-01-25 10:24:51,9.565s,PASSED
+"waitForElementPresent(findTestObject(""LoginpageObjects/EnterMobileNumber""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:24:51,2019-01-25 10:24:53,2.123s,PASSED
+"click(findTestObject(""LoginpageObjects/EnterMobileNumber""))",Chrome 71.0.3578.98,,2019-01-25 10:24:53,2019-01-25 10:25:03,9.195s,PASSED
+"sendKeys(findTestObject(""LoginpageObjects/EnterMobileNumber""), MobileNumber)",Chrome 71.0.3578.98,,2019-01-25 10:25:03,2019-01-25 10:25:07,4.665s,PASSED
+"click(findTestObject(""LoginpageObjects/Enterpassword""))",Chrome 71.0.3578.98,,2019-01-25 10:25:07,2019-01-25 10:25:17,9.619s,PASSED
+"sendKeys(findTestObject(""LoginpageObjects/Enterpassword""), Password)",Chrome 71.0.3578.98,,2019-01-25 10:25:17,2019-01-25 10:25:22,5.435s,PASSED
+"click(findTestObject(""LoginpageObjects/ClickonLoginButton""))",Chrome 71.0.3578.98,,2019-01-25 10:25:22,2019-01-25 10:25:32,9.135s,PASSED
+"waitForElementPresent(findTestObject(""LoginpageObjects/LoginValidation""), 10)",Chrome 71.0.3578.98,,2019-01-25 10:25:32,2019-01-25 10:25:53,21.410s,PASSED
+"click(findTestObject(""LiveTvObjects/MoreoptionsonHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:25:53,2019-01-25 10:26:02,9.477s,PASSED
+"waitForElementPresent(findTestObject(""LiveTvObjects/ChooseLiveTvfromHomepage""), 1)",Chrome 71.0.3578.98,,2019-01-25 10:26:02,2019-01-25 10:26:04,2.046s,PASSED
+"click(findTestObject(""LiveTvObjects/ChooseLiveTvfromHomepage""))",Chrome 71.0.3578.98,,2019-01-25 10:26:04,2019-01-25 10:26:14,9.201s,PASSED
+"waitForElementPresent(findTestObject(""LiveTvObjects/WaitForpageloadonLivepage""), 5)",Chrome 71.0.3578.98,,2019-01-25 10:26:14,2019-01-25 10:26:16,2.145s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-25 10:26:16,2019-01-25 10:26:16,0.022s,PASSED
+"g = driver.findElements(By.xpath(""//div[@class=""home-grid-container ng-star-inserted""]""))",Chrome 71.0.3578.98,,2019-01-25 10:26:16,2019-01-25 10:26:18,2.465s,PASSED
+get(1).click(),Chrome 71.0.3578.98,,2019-01-25 10:26:18,2019-01-25 10:26:18,0.021s,ERROR
